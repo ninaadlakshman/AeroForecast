@@ -1,0 +1,51 @@
+import requests
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv()
+
+def get_flight_info(flight_number, airlabs_api_key):
+    """
+    Fetch flight information from AirLabs API.
+    """
+    url = f"https://airlabs.co/api/v9/flights?api_key={airlabs_api_key}&flight_iata={flight_number}"
+    response = requests.get(url)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return f"Error: {response.status_code}"
+
+def get_weather_info(icao_code, checkwx_api_key):
+    """
+    Fetch weather information from CheckWX API.
+    """
+    url = f"https://api.checkwx.com/metar/{icao_code}/decoded"
+    headers = {'X-API-Key': checkwx_api_key}
+    response = requests.get(url, headers=headers)
+    if response.status_code == 200:
+        return response.json()
+    else:
+        return f"Error: {response.status_code}"
+
+def main():
+    
+    airlabs_api_key = os.environ.get('AIRLABS_API_KEY')
+    checkwx_api_key = os.environ.get('CHECKWX_API_KEY')
+
+    #NEED TO PULL FLIGHT NUMBER FROM FRONTEND
+
+    # flight_number = "NK968"  
+    # icao_code = "KJFK"       
+
+    # flight_info = get_flight_info(flight_number, airlabs_api_key)
+    # weather_info = get_weather_info(icao_code, checkwx_api_key)
+
+    # NEED TO FEED WEATHER INFO INTO AMISH'S MODEL
+    # print("Flight Information:")
+    # print(flight_info)
+    # print("\nWeather Information:")
+    # print(weather_info)
+
+if __name__ == "__main__":
+    main()
