@@ -1,0 +1,17 @@
+.state {
+    fill: none;
+    stroke: #333;
+    stroke-width: 1;
+}
+
+.county {
+    fill: #3498db;
+    stroke: #333;
+    stroke-width: 0.25;
+}
+
+.location {
+    fill: white;
+    stroke: #333;
+    stroke-width: 4;
+}

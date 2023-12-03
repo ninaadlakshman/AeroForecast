@@ -4,7 +4,7 @@ import { Chart } from 'primereact/chart';
 
 const PredictionPie: React.FC = () => {
     const [chartData] = useState({
-        labels: ['On-time', 'Delayed', 'Cancellation'],
+        labels: ['On-time', 'Delayed', 'Cancelled'],
         datasets: [
             {
                 data: [75, 15, 10],

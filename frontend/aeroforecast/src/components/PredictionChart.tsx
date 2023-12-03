@@ -61,9 +61,7 @@ const PredictionChart: React.FC = () => {
     }, []);
 
     return (
-        <div className="card">
-            <Chart type="bar" data={chartData} options={chartOptions} />
-        </div>
+        <Chart type="bar" data={chartData} options={chartOptions} />
     )
 }
 
