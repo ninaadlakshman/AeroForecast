@@ -1,0 +1,420 @@
+code_name,weather_name,Levenshtein_Distance
+Manchester Airport,"MANCHESTER AIRPORT, NH US",0
+King Salmon Airport,"KING SALMON AIRPORT, AK US",0
+Yakutat Airport,"YAKUTAT AIRPORT, AK US",0
+Decatur Airport,"DECATUR AIRPORT, IL US",0
+Wrangell Airport,"WRANGELL AIRPORT, AK US",0
+Bishop Airport,"BISHOP AIRPORT, CA US",0
+Bristol Airport,"BRISTOL AIRPORT, TN US",0
+Boise Air Terminal,"BOISE AIR TERMINAL, ID US",0
+Kodiak Airport,"KODIAK AIRPORT, AK US",0
+Buffalo Niagara International,"BUFFALO NIAGARA INTERNATIONAL, NY US",0
+Nome Airport,"NOME AIRPORT, AK US",0
+Birmingham Airport,"BIRMINGHAM AIRPORT, AL US",0
+Birmingham Airport,"BIRMINGHAM AIRPORT, AL US",0
+Kahului Airport,"KAHULUI AIRPORT, HI US",0
+Bethel Airport,"BETHEL AIRPORT, AK US",0
+Burlington International,"BURLINGTON INTERNATIONAL AIRPORT, VT US",1
+Camarillo Airport,"AMARILLO AIRPORT, TX US",1
+Corpus Christi International,"CORPUS CHRISTI INTERNATIONAL AIRPORT, TX US",1
+Melbourne International,"MELBOURNE INTERNATIONAL AIRPORT, FL US",1
+Asheville Regional,"ASHEVILLE REGIONAL AIRPORT, NC US",1
+Wilmington International,"WILMINGTON INTERNATIONAL AIRPORT, NC US",1
+Santa Barbara Municipal,"SANTA BARBARA MUNICIPAL AIRPORT, CA US",1
+Syracuse Hancock International,"SYRACUSE HANCOCK INTERNATIONAL AIRPORT, NY US",1
+Elko Regional,"ELKO REGIONAL AIRPORT, NV US",1
+Key West International,"KEY WEST INTERNATIONAL AIRPORT, FL US",1
+Decatur,"DECATUR AIRPORT, IL US",1
+Minot International,"MINOT INTERNATIONAL AIRPORT, ND US",1
+Monterey Peninsula,"MONTEREY PENINSUL AIRPORT, CA US",1
+Nantucket Memorial,"NANTUCKET MEMORIAL AIRPORT, MA US",1
+Lafayette Regional,"LAFAYETTE REGIONAL AIRPORT, LA US",1
+Montrose Regional,"MONTROSE REGIONAL AIRPORT, CO US",1
+Fairbanks International,"FAIRBANKS INTERNATIONAL AIRPORT, AK US",1
+Midland International,"MIDLAND INTERNATIONAL AIRPORT, TX US",1
+Washington Dulles International,"WASHINGTON DULLES INTERNATIONAL AIRPORT, VA US",1
+Memphis International,"MEMPHIS INTERNATIONAL AIRPORT, TN US",1
+Dothan Regional,"DOTHAN REGIONAL AIRPORT, AL US",1
+Mason City Municipal,"MASON CITY MUNICIPAL AIRPORT, IA US",1
+Charlottesville Albemarle,"CHARLOTTESVILLE ALBEMARLE AIRPORT, VA US",1
+Wilkes Barre Scranton International,"WILKES BARRE SCRANTON INTERNATIONAL AIRPORT, PA US",1
+Jackson Hole,"JACKSON HOLE AIRPORT, WY US",1
+Columbia Metropolitan,"COLUMBIA METROPOLITAN AIRPORT, SC US",1
+Aberdeen Regional,"ABERDEEN REGIONAL AIRPORT, SD US",1
+Bismarck Municipal,"BISMARCK MUNICIPAL AIRPORT, ND US",1
+Daytona Beach International,"DAYTONA BEACH INTERNATIONAL AIRPORT, FL US",1
+Melbourne International,"MELBOURNE INTERNATIONAL AIRPORT, FL US",1
+Monroe Regional,"MONROE REGIONAL AIRPORT, LA US",1
+Lubbock International,"LUBBOCK INTERNATIONAL AIRPORT, TX US",1
+Missoula International,"MISSOULA INTERNATIONAL AIRPORT, MT US",1
+Columbia Regional,"COLUMBIA REGIONAL AIRPORT, MO US",1
+Fort Smith Regional,"FORT SMITH REGIONAL AIRPORT, AR US",1
+Alexandria International,"ALEXANDRIA INTERNATIONAL AIRPORT, LA US",1
+Ontario International,"ONTARIO INTERNATIONAL AIRPORT, CA US",1
+Lake Charles Regional,"LAKE CHARLES REGIONAL AIRPORT, LA US",1
+Fort Wayne International,"FORT WAYNE INTERNATIONAL AIRPORT, IN US",1
+Mobile Regional,"MOBILE REGIONAL AIRPORT, AL US",1
+Worcester Regional,"WORCESTER REGIONAL AIRPORT, MA US",1
+El Paso International,"EL PASO INTERNATIONAL AIRPORT, TX US",1
+Rochester International,"ROCHESTER INTERNATIONAL AIRPORT, MN US",1
+Kansas City International,"KANSAS CITY INTERNATIONAL AIRPORT, MO US",1
+Nashville International,"NASHVILLE INTERNATIONAL AIRPORT, TN US",1
+Indianapolis International,"INDIANAPOLIS INTERNATIONAL AIRPORT, IN US",1
+Pocatello Regional,"POCATELLO REGIONAL AIRPORT, ID US",1
+Des Moines International,"DES MOINES INTERNATIONAL AIRPORT, IA US",1
+Bellingham International,"BELLINGHAM INTERNATIONAL AIRPORT, WA US",1
+Norfolk International,"NORFOLK INTERNATIONAL AIRPORT, VA US",1
+Philadelphia International,"PHILADELPHIA INTERNATIONAL AIRPORT, PA US",1
+Tampa International,"TAMPA INTERNATIONAL AIRPORT, FL US",1
+Orlando International,"ORLANDO INTERNATIONAL AIRPORT, FL US",1
+Sarasota/Bradenton Airport,"SARASOTA BRADENTON AIRPORT, FL US",1
+Albany International,"ALBANY INTERNATIONAL AIRPORT, NY US",1
+Salt Lake City International,"SALT LAKE CITY INTERNATIONAL AIRPORT, UT US",1
+Alexandria International,"ALEXANDRIA INTERNATIONAL AIRPORT, LA US",1
+Gainesville Regional,"GAINESVILLE REGIONAL AIRPORT, FL US",1
+Cordoba Airport,"CORDOVA AIRPORT, AK US",1
+Abilene Regional,"ABILENE REGIONAL AIRPORT, TX US",1
+Dodge City Regional,"DODGE CITY REGIONAL AIRPORT, KS US",1
+Tucson International,"TUCSON INTERNATIONAL AIRPORT, AZ US",1
+San Francisco International,"SAN FRANCISCO INTERNATIONAL AIRPORT, CA US",1
+Salina Municipal,"SALINA MUNICIPAL AIRPORT, KS US",1
+Spokane International,"SPOKANE INTERNATIONAL AIRPORT, WA US",1
+Roanoke Blacksburg Regional,"ROANOKE BLACKSBURG REGIONAL AIRPORT, VA US",1
+Tulsa International,"TULSA INTERNATIONAL AIRPORT, OK US",1
+Richmond International,"RICHMOND INTERNATIONAL AIRPORT, VA US",1
+Pittsburgh International,"PITTSBURGH INTERNATIONAL AIRPORT, PA US",1
+Jacksonville International,"JACKSONVILLE INTERNATIONAL AIRPORT, FL US",1
+Duluth International,"DULUTH INTERNATIONAL AIRPORT, MN US",1
+San Jose Airport,"SAN JOSE, CA US",1
+Plattsburgh International,"PLATTSBURGH INTERNATIONAL AIRPORT, NY US",1
+Cedar Rapids Municipal,"CEDAR RAPIDS MUNICIPAL AIRPORT, IA US",1
+Miami International,"MIAMI INTERNATIONAL AIRPORT, FL US",1
+Dubuque Regional,"DUBUQUE REGIONAL AIRPORT, IA US",1
+Portland International,"PORTLAND INTERNATIONAL AIRPORT, OR US",1
+Waco Regional,"WACO REGIONAL AIRPORT, TX US",1
+San Diego International,"SAN DIEGO INTERNATIONAL AIRPORT, CA US",1
+Denver International,"DENVER INTERNATIONAL AIRPORT, CO US",1
+Grand Forks International,"GRAND FORKS INTERNATIONAL AIRPORT, ND US",1
+San Jose Airport,"SAN JOSE, CA US",1
+Northwest Florida Beaches International,"NORTHWEST FLORIDA BEACHES INTERNATIONAL AIRPORT, FL US",1
+Atlantic City International,"ATLANTIC CITY INTERNATIONAL AIRPORT, NJ US",1
+Rapid City Regional,"RAPID CITY REGIONAL AIRPORT, SD US",1
+San Antonio International,"SAN ANTONIO INTERNATIONAL AIRPORT, TX US",1
+Bangor International,"BANGOR INTERNATIONAL AIRPORT, ME US",1
+St George Municipal,"ST GEORGE MUNICIPAL AIRPORT, UT US",1
+Newark Liberty International,"NEWARK LIBERTY INTERNATIONAL AIRPORT, NJ US",1
+Los Angeles International,"LOS ANGELES INTERNATIONAL AIRPORT, CA US",1
+Hope Airport,"NOME AIRPORT, AK US",2
+Rangely Airport,"WRANGELL AIRPORT, AK US",2
+Kalamazoo/Battle Creek International,"KALAMAZOO BATTLE CREEK INTERNATIONAL AIRPORT, MI US",2
+Oita Airport,"SITKA AIRPORT, AK US",2
+Yakutsk Airport,"YAKUTAT AIRPORT, AK US",2
+Lethem Airport,"BETHEL AIRPORT, AK US",2
+Baltimore/Washington International,"BALTIMORE WASHINGTON INTERNATIONAL AIRPORT, MD US",2
+Winchester Airport,"MANCHESTER AIRPORT, NH US",2
+Ngoma Airport,"NOME AIRPORT, AK US",2
+Chicago O'Hare International,"CHICAGO OHARE INTERNATIONAL AIRPORT, IL US",2
+Njombe Airport,"NOME AIRPORT, AK US",2
+Cleveland-Hopkins International,"CLEVELAND HOPKINS INTERNATIONAL AIRPORT, OH US",2
+Reus Airport,"RENO AIRPORT, NV US",2
+Belo Airport,"RENO AIRPORT, NV US",2
+Savannah/Hilton Head International,"SAVANNAH HILTON HEAD INTERNATIONAL AIRPORT, GA US",2
+Fayetteville Regional/Grannis Field,"FAYETTEVILLE REGIONAL AIRPORT GRANNIS FIELD, NC US",2
+Roma Airport,"NOME AIRPORT, AK US",2
+Raleigh-Durham International,"RALEIGH DURHAM INTERNATIONAL AIRPORT, NC US",2
+Gore Airport,"NOME AIRPORT, AK US",2
+Cincinnati/Northern Kentucky International,"CINCINNATI NORTHERN KENTUCKY INTERNATIONAL AIRPORT, KY US",2
+Homer Airport,"NOME AIRPORT, AK US",2
+Togiak Airport,"KODIAK AIRPORT, AK US",2
+Nema Airport,"NOME AIRPORT, AK US",2
+Salinas Municipal,"SALINA MUNICIPAL AIRPORT, KS US",2
+Wichita Dwight D Eisenhower National,"WICHITA DWIGHT D. EISENHOWER NATIONAL AIRPORT, KS US",2
+Goma Airport,"NOME AIRPORT, AK US",2
+Komo Airport,"NOME AIRPORT, AK US",2
+Elmira/Corning Regional,"ELMIRA CORNING REGIONAL AIRPORT, NY US",2
+Melo Airport,"RENO AIRPORT, NV US",2
+Bisha Airport,"BISHOP AIRPORT, CA US",2
+Atka Airport,"SITKA AIRPORT, AK US",2
+Prome Airport,"NOME AIRPORT, AK US",2
+Gove Airport,"NOME AIRPORT, AK US",2
+Akutan Airport,"YAKUTAT AIRPORT, AK US",2
+La Guardia,"LAGUARDIA AIRPORT, NY US",2
+Gode Airport,"NOME AIRPORT, AK US",2
+Heho Airport,"RENO AIRPORT, NV US",2
+Boma Airport,"NOME AIRPORT, AK US",2
+Cyril E King,"CYRIL E. KING AIRPORT, VI US",2
+Siuna Airport,"SITKA AIRPORT, AK US",2
+Yorkton Airport,"STOCKTON AIRPORT, CA US",3
+Wollaston,"WILLISTON AIRPORT, ND US",3
+Sindal Airport,"SITKA AIRPORT, AK US",3
+Moro Airport,"RENO AIRPORT, NV US",3
+Booue Airport,"NOME AIRPORT, AK US",3
+Ama Airport,"NOME AIRPORT, AK US",3
+Sopu Airport,"NOME AIRPORT, AK US",3
+Afton Municipal,"LAWTON MUNICIPAL AIRPORT, OK US",3
+Orebro Airport,"RENO AIRPORT, NV US",3
+Forde Airport,"NOME AIRPORT, AK US",3
+Cooma Airport,"NOME AIRPORT, AK US",3
+Epena Airport,"RENO AIRPORT, NV US",3
+Duqm International,"GUAM INTERNATIONAL AIRPORT, GU GQ",3
+Gan International,"GUAM INTERNATIONAL AIRPORT, GU GQ",3
+Moro Airport,"NOME AIRPORT, AK US",3
+Wakunai Airport,"YAKUTAT AIRPORT, AK US",3
+Moree Airport,"NOME AIRPORT, AK US",3
+Bonthe Airport,"BETHEL AIRPORT, AK US",3
+Beihai Airport,"BETHEL AIRPORT, AK US",3
+Soyo Airport,"RENO AIRPORT, NV US",3
+Kudat Airport,"YAKUTAT AIRPORT, AK US",3
+Noto,"NOME AIRPORT, AK US",3
+Chita Airport,"SITKA AIRPORT, AK US",3
+Bade Airport,"NOME AIRPORT, AK US",3
+Baramita Airport,"LARAMIE AIRPORT, WY US",3
+Maradi Airport,"LARAMIE AIRPORT, WY US",3
+Ofu Airport,"NOME AIRPORT, AK US",3
+Prerov Airport,"RENO AIRPORT, NV US",3
+Drummond Airport,"REDMOND AIRPORT, OR US",3
+Boku Airport,"NOME AIRPORT, AK US",3
+Plattsburgh International,"PITTSBURGH INTERNATIONAL AIRPORT, PA US",3
+Corozal Airport,"CORDOVA AIRPORT, AK US",3
+Rostov Airport,"BRISTOL AIRPORT, TN US",3
+Hot Springs Airport,"ROCK SPRINGS AIRPORT, WY US",3
+Loreto International,"LAREDO INTERNATIONAL AIRPORT, TX US",3
+Sao Jorge,"SAN JOSE, CA US",3
+Kosrae Airport,"KODIAK AIRPORT, AK US",3
+Comox Airport,"NOME AIRPORT, AK US",3
+Jeremie Airport,"LARAMIE AIRPORT, WY US",3
+Salta Airport,"SITKA AIRPORT, AK US",3
+Beihan Airport,"BETHEL AIRPORT, AK US",3
+Taba International,"TAMPA INTERNATIONAL AIRPORT, FL US",3
+Nkan Airport,"NOME AIRPORT, AK US",3
+Akita Airport,"YAKUTAT AIRPORT, AK US",3
+Sivas Airport,"SITKA AIRPORT, AK US",3
+Sebha Airport,"SITKA AIRPORT, AK US",3
+Iki Airport,"SITKA AIRPORT, AK US",3
+Bowen Airport,"NOME AIRPORT, AK US",3
+Easton Municipal,"LAWTON MUNICIPAL AIRPORT, OK US",3
+Sola Airport,"SITKA AIRPORT, AK US",3
+Cooma Airport,"CORDOVA AIRPORT, AK US",3
+Kaoma Airport,"NOME AIRPORT, AK US",3
+Nain Airport,"NOME AIRPORT, AK US",3
+Akita Airport,"SITKA AIRPORT, AK US",3
+Ocean Falls Airport,"GREAT FALLS AIRPORT, MT US",3
+Dunbar Airport,"JUNEAU AIRPORT, AK US",3
+Beijing Airport,"REDDING AIRPORT, CA US",3
+Goba Airport,"NOME AIRPORT, AK US",3
+Juba Airport,"JUNEAU AIRPORT, AK US",3
+Gao Airport,"RENO AIRPORT, NV US",3
+Otu Airport,"NOME AIRPORT, AK US",3
+Kotlik Airport,"KODIAK AIRPORT, AK US",3
+Reston Airport,"BRISTOL AIRPORT, TN US",3
+Tela Airport,"RENO AIRPORT, NV US",3
+Nuuk Airport,"NOME AIRPORT, AK US",3
+Eia Airport,"RENO AIRPORT, NV US",3
+Southend,"SOUTH BEND AIRPORT, IN US",3
+Sibu Airport,"SITKA AIRPORT, AK US",3
+Mendi Airport,"RENO AIRPORT, NV US",3
+Suki Airport,"SITKA AIRPORT, AK US",3
+Rota Airport,"RENO AIRPORT, NV US",3
+Pittsburgh International,"PLATTSBURGH INTERNATIONAL AIRPORT, NY US",3
+Tiko Airport,"SITKA AIRPORT, AK US",3
+Ranau Airport,"JUNEAU AIRPORT, AK US",3
+Akolik Airport,"KODIAK AIRPORT, AK US",3
+Mels Airport,"RENO AIRPORT, NV US",3
+Reston Airport,"RENO AIRPORT, NV US",3
+Bodo Airport,"NOME AIRPORT, AK US",3
+Reston Airport,"REDMOND AIRPORT, OR US",3
+Jinja Airport,"JUNEAU AIRPORT, AK US",3
+Eia Airport,"SITKA AIRPORT, AK US",3
+Noatak Airport,"KODIAK AIRPORT, AK US",3
+Formosa Airport,"CORDOVA AIRPORT, AK US",3
+Ranau Airport,"RENO AIRPORT, NV US",3
+Rioja Airport,"SITKA AIRPORT, AK US",3
+Soyo Airport,"NOME AIRPORT, AK US",3
+Chester Airport,"MANCHESTER AIRPORT, NH US",3
+Rota Airport,"SITKA AIRPORT, AK US",3
+Sibiu Airport,"SITKA AIRPORT, AK US",3
+Marina Municipal,"SALINA MUNICIPAL AIRPORT, KS US",3
+Orange Airport,"WRANGELL AIRPORT, AK US",3
+Weed Airport,"RENO AIRPORT, NV US",3
+Emmen Airport,"NOME AIRPORT, AK US",3
+Bangkok International,"BANGOR INTERNATIONAL AIRPORT, ME US",3
+Cue Airport,"NOME AIRPORT, AK US",3
+Kos Airport,"NOME AIRPORT, AK US",3
+Carora Airport,"CORDOVA AIRPORT, AK US",3
+Dalton Municipal,"LAWTON MUNICIPAL AIRPORT, OK US",3
+Bader Field,"BAKERSFIELD AIRPORT, CA US",3
+Ouvea Airport,"JUNEAU AIRPORT, AK US",3
+Karluk Airport,"KAHULUI AIRPORT, HI US",3
+Kalemie Airport,"LARAMIE AIRPORT, WY US",3
+Coen Airport,"NOME AIRPORT, AK US",3
+Umea Airport,"NOME AIRPORT, AK US",3
+Vanguardia,"LAGUARDIA AIRPORT, NY US",3
+New Orleans NAS,"NEW ORLEANS AIRPORT, LA US",3
+Sedona Airport,"REDMOND AIRPORT, OR US",3
+Paro Airport,"RENO AIRPORT, NV US",3
+Bodo Airport,"RENO AIRPORT, NV US",3
+Minna Airport,"SITKA AIRPORT, AK US",3
+Nyac Airport,"NOME AIRPORT, AK US",3
+Medina Airport,"REDDING AIRPORT, CA US",3
+Labe Airport,"NOME AIRPORT, AK US",3
+Jinja Airport,"SITKA AIRPORT, AK US",3
+Sola Airport,"NOME AIRPORT, AK US",3
+Goa Airport,"NOME AIRPORT, AK US",3
+Eek Airport,"RENO AIRPORT, NV US",3
+Jos Airport,"NOME AIRPORT, AK US",3
+Bislig Airport,"BISHOP AIRPORT, CA US",3
+Genting Airport,"REDDING AIRPORT, CA US",3
+Dodoma Airport,"CORDOVA AIRPORT, AK US",3
+Divo Airport,"RENO AIRPORT, NV US",3
+Kobuk Airport,"KODIAK AIRPORT, AK US",3
+Cicia Airport,"SITKA AIRPORT, AK US",3
+Kamusi Airport,"KAHULUI AIRPORT, HI US",3
+Rota Airport,"NOME AIRPORT, AK US",3
+Vrems Airport,"RENO AIRPORT, NV US",3
+Tiko Airport,"RENO AIRPORT, NV US",3
+Ndola Airport,"NOME AIRPORT, AK US",3
+Trenton Airport,"RENO AIRPORT, NV US",3
+Mora Airport,"NOME AIRPORT, AK US",3
+Umea Airport,"JUNEAU AIRPORT, AK US",3
+Lumi Airport,"NOME AIRPORT, AK US",3
+Faro Airport,"RENO AIRPORT, NV US",3
+Banz Airport,"RENO AIRPORT, NV US",3
+Kobe,"NOME AIRPORT, AK US",3
+Brenoux,"RENO AIRPORT, NV US",3
+Simbai Airport,"SITKA AIRPORT, AK US",3
+Jumla Airport,"JUNEAU AIRPORT, AK US",3
+Tulear Airport,"JUNEAU AIRPORT, AK US",3
+Mao Airport,"RENO AIRPORT, NV US",3
+Deering Airport,"REDDING AIRPORT, CA US",3
+Komo Airport,"RENO AIRPORT, NV US",3
+Coen Airport,"RENO AIRPORT, NV US",3
+Kiavak Airport,"KODIAK AIRPORT, AK US",3
+Minto Airport,"RENO AIRPORT, NV US",3
+Bangoka International,"BANGOR INTERNATIONAL AIRPORT, ME US",3
+Vigo Airport,"RENO AIRPORT, NV US",3
+Aniak Airport,"KODIAK AIRPORT, AK US",3
+Columbia Metropolitan,"COLUMBUS METROPOLITAN AIRPORT, GA US",3
+Lifuka Airport,"SITKA AIRPORT, AK US",3
+Ilebo Airport,"RENO AIRPORT, NV US",3
+Arenal,"RENO AIRPORT, NV US",3
+Kenora Airport,"RENO AIRPORT, NV US",3
+Red Dog Airport,"REDDING AIRPORT, CA US",3
+Bunia Airport,"JUNEAU AIRPORT, AK US",3
+Amari Airport,"AMARILLO AIRPORT, TX US",3
+Shimla Airport,"SITKA AIRPORT, AK US",3
+Omak Airport,"NOME AIRPORT, AK US",3
+Lodja Airport,"KODIAK AIRPORT, AK US",3
+Leon Airport,"RENO AIRPORT, NV US",3
+Wanigela Airport,"WRANGELL AIRPORT, AK US",3
+Woja Airport,"NOME AIRPORT, AK US",3
+Naga Airport,"NOME AIRPORT, AK US",3
+Lemnos Airport,"RENO AIRPORT, NV US",3
+Bakel Airport,"BETHEL AIRPORT, AK US",3
+Monroe Regional,"MONTROSE REGIONAL AIRPORT, CO US",3
+Beja Airport,"RENO AIRPORT, NV US",3
+Man Airport,"RENO AIRPORT, NV US",3
+Omsk Airport,"NOME AIRPORT, AK US",3
+Sofia Airport,"KODIAK AIRPORT, AK US",3
+Goya Airport,"NOME AIRPORT, AK US",3
+Van Airport,"RENO AIRPORT, NV US",3
+Birao Airport,"BISHOP AIRPORT, CA US",3
+Omak Airport,"KODIAK AIRPORT, AK US",3
+Tikal Airport,"SITKA AIRPORT, AK US",3
+Hana Airport,"RENO AIRPORT, NV US",3
+Mayo Airport,"RENO AIRPORT, NV US",3
+Roma Airport,"RENO AIRPORT, NV US",3
+Austin - Bergstrom International,"AUSTIN BERGSTROM INTERNATIONAL AIRPORT, TX US",3
+Oyem Airport,"NOME AIRPORT, AK US",3
+Nimba Airport,"SITKA AIRPORT, AK US",3
+Nimba Airport,"NOME AIRPORT, AK US",3
+Trona Airport,"RENO AIRPORT, NV US",3
+Kako Airport,"RENO AIRPORT, NV US",3
+Reyes Airport,"RENO AIRPORT, NV US",3
+Eaker Field,"BAKERSFIELD AIRPORT, CA US",3
+Montrose Regional,"MONROE REGIONAL AIRPORT, LA US",3
+Munda Airport,"JUNEAU AIRPORT, AK US",3
+Eua Airport,"RENO AIRPORT, NV US",3
+Basco Airport,"BISHOP AIRPORT, CA US",3
+Bata Airport,"SITKA AIRPORT, AK US",3
+Bo Airport,"RENO AIRPORT, NV US",3
+Kosipe Airport,"KODIAK AIRPORT, AK US",3
+Bo Airport,"NOME AIRPORT, AK US",3
+Faro Airport,"RENO AIRPORT, NV US",3
+Alta Airport,"SITKA AIRPORT, AK US",3
+Buyo Airport,"RENO AIRPORT, NV US",3
+Keshod Airport,"BISHOP AIRPORT, CA US",3
+Abeche Airport,"BETHEL AIRPORT, AK US",3
+York Airport,"NOME AIRPORT, AK US",3
+Eros,"RENO AIRPORT, NV US",3
+Yakataga,"YAKUTAT AIRPORT, AK US",3
+Koroba Airport,"CORDOVA AIRPORT, AK US",3
+Wick Airport,"SITKA AIRPORT, AK US",3
+Minj Airport,"RENO AIRPORT, NV US",3
+Chino Airport,"RENO AIRPORT, NV US",3
+Akiak Airport,"KODIAK AIRPORT, AK US",3
+Dundo Airport,"RENO AIRPORT, NV US",3
+Rost Airport,"RENO AIRPORT, NV US",3
+Doro Airport,"RENO AIRPORT, NV US",3
+Bisha Airport,"SITKA AIRPORT, AK US",3
+Muan International,"GUAM INTERNATIONAL AIRPORT, GU GQ",3
+Nema Airport,"RENO AIRPORT, NV US",3
+Rost Airport,"NOME AIRPORT, AK US",3
+Wellington International,"WILMINGTON INTERNATIONAL AIRPORT, NC US",3
+Saga Airport,"SITKA AIRPORT, AK US",3
+Doro Airport,"NOME AIRPORT, AK US",3
+Aramac Airport,"LARAMIE AIRPORT, WY US",3
+Pori Airport,"NOME AIRPORT, AK US",3
+Roros Airport,"RENO AIRPORT, NV US",3
+Tok Airport,"NOME AIRPORT, AK US",3
+Fogo Airport,"NOME AIRPORT, AK US",3
+Newton Municipal,"LAWTON MUNICIPAL AIRPORT, OK US",3
+Fogo Airport,"RENO AIRPORT, NV US",3
+Dillingham Airport,"BIRMINGHAM AIRPORT, AL US",3
+Griswold,"BRISTOL AIRPORT, TN US",3
+Kiffa Airport,"SITKA AIRPORT, AK US",3
+Sechelt Airport,"BETHEL AIRPORT, AK US",3
+Kapalua Airport,"KAHULUI AIRPORT, HI US",3
+Lima Airport,"NOME AIRPORT, AK US",3
+Leh Airport,"RENO AIRPORT, NV US",3
+Bristol Airport,"BISHOP AIRPORT, CA US",3
+Blythe Airport,"BETHEL AIRPORT, AK US",3
+Rijeka Airport,"SITKA AIRPORT, AK US",3
+Sion Airport,"SITKA AIRPORT, AK US",3
+Nioro Airport,"NOME AIRPORT, AK US",3
+Nowra Airport,"NOME AIRPORT, AK US",3
+Ndele Airport,"NOME AIRPORT, AK US",3
+Sofia Airport,"SITKA AIRPORT, AK US",3
+Cork Airport,"NOME AIRPORT, AK US",3
+Jean Airport,"RENO AIRPORT, NV US",3
+Ruby Airport,"RENO AIRPORT, NV US",3
+Beaver Airport,"BETHEL AIRPORT, AK US",3
+Bomai Airport,"NOME AIRPORT, AK US",3
+Pisa Airport,"SITKA AIRPORT, AK US",3
+Gizo Airport,"RENO AIRPORT, NV US",3
+Jean Airport,"JUNEAU AIRPORT, AK US",3
+Safia Airport,"SITKA AIRPORT, AK US",3
+Niort Airport,"NOME AIRPORT, AK US",3
+Bishop Airport,"BRISTOL AIRPORT, TN US",3
+Mitiga Airport,"SITKA AIRPORT, AK US",3
+Scone Airport,"NOME AIRPORT, AK US",3
+Rhode Island Tf Green International,"RHODE ISLAND T.F. GREEN INTERNATIONAL AIRPORT, RI US",3
+Bettles Airport,"BETHEL AIRPORT, AK US",3
+Bitam Airport,"SITKA AIRPORT, AK US",3
+Minneapolis-St Paul International,"MINNEAPOLIS ST. PAUL INTERNATIONAL AIRPORT, MN US",3
+Lancaster Airport,"MANCHESTER AIRPORT, NH US",3
+Lanai Airport,"LARAMIE AIRPORT, WY US",3
+Richmond Airport,"REDMOND AIRPORT, OR US",3
+Tiska,"SITKA AIRPORT, AK US",3
+Kudat Airport,"KODIAK AIRPORT, AK US",3
+Sishen Airport,"BISHOP AIRPORT, CA US",3
+Aragip Airport,"LARAMIE AIRPORT, WY US",3
+Ramona Airport,"REDMOND AIRPORT, OR US",3
+Konya Airport,"KODIAK AIRPORT, AK US",3
+Bissau Airport,"BISHOP AIRPORT, CA US",3
+Jolo Airport,"RENO AIRPORT, NV US",3
+Lima Airport,"SITKA AIRPORT, AK US",3
+Yola Airport,"NOME AIRPORT, AK US",3
+Craiova Airport,"CORDOVA AIRPORT, AK US",3
+Jolo Airport,"NOME AIRPORT, AK US",3
+Tauta Airport,"YAKUTAT AIRPORT, AK US",3
+Goroka Airport,"CORDOVA AIRPORT, AK US",3
