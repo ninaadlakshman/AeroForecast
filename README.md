@@ -33,7 +33,7 @@ npm install
 Once the required dependencies are installed, simply run `npm start` and the application will run on your local machine.
 
 ## AeroForecast Team 👥
-Amish Saini, Kartik Narang, Nathan Wang, Aryan Musharaf, Ninaad Lakshman, Alex Kim.
+Amish Saini, Kartik Narang, Nathan Wang, Aryan Musharaf, Ninaad Lakshman, Alex Jaegook Kim.
 
 ## Contributions 🤝
 We welcome contributions to AeroForecast! If you have ideas for new features, improvements, or bug fixes, please feel free to submit a pull request.
