@@ -30,6 +30,9 @@ pip install -r requirements.txt
 npm install
 ```
 
+You must get the API keys at the following websites:
+For flights: [Airlabs](https://airlabs.co/docs/flight)
+For weather: [CheckWX](https://www.checkwxapi.com/documentation/code/samples) 
 ## Usage
 Once the required dependencies are installed, simply run `npm start` and the application will run on your local machine.
 
