@@ -10,7 +10,7 @@ AeroForecast aims to provide a valuable tool for travelers, allowing them to ant
 
 - **Flight Delay Prediction:** AeroForecast utilizes advanced models to predict the likelihood of flight delays, helping users plan their journeys more effectively.
 
-- **Global Coverage:** The application considers data from a vast number of flights globally, ensuring comprehensive coverage and accuracy in predictions.
+- **US Coverage:** The application considers data from a vast number of flights in the US, ensuring comprehensive coverage and accuracy in predictions.
 
 - **Real-time Updates:** AeroForecast provides real-time updates on flight statuses and potential delays, keeping users informed about any changes to their travel plans.
 
