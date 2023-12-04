@@ -2,7 +2,7 @@ import requests
 from dotenv import load_dotenv
 import os
 import pandas as pd
-
+import json
 
 load_dotenv()
 
@@ -10,7 +10,9 @@ def get_flight_info(flight_number, airlabs_api_key):
     """
     Fetch flight information from AirLabs API.
     """
-    url = f"https://airlabs.co/api/v9/flights?api_key={airlabs_api_key}&flight_iata={flight_number}"
+    # url = "https://airlabs.co/api/v9/flight?flight_iata={flight_number}&api_key={airlabs_api_key}"
+
+    url = f"https://airlabs.co/api/v9/flight?flight_iata={flight_number}&api_key={airlabs_api_key}"
     response = requests.get(url)
     if response.status_code == 200:
         return response.json()
@@ -29,75 +31,92 @@ def get_weather_info(icao_code, checkwx_api_key):
     else:
         return f"Error: {response.status_code}"
 
-#function to parse the JSON response
-def get_model_input(weather_info):
+#function to parse the JSON response from the CheckWX api
+def extract_weather_data(weather_info):
     #Pulling relevant data from JSON
-    rain = weather_info.data.rain.inches
-    temp = weather_info.data.temperature.fahrenheit
-    wind = weather_info.data.wind.speed_mph
-    wind_direction = weather_info.data.wind.degrees
+    print(weather_info['data'][0].keys())
+    try:
+        rain = weather_info['data'][0]['rain']['inches']
+    except:
+        rain = 0.00
+    temp = weather_info['data'][0]['temperature']['fahrenheit']
+    wind = weather_info['data'][0]['wind']['speed_mph']
+    wind_direction = weather_info['data'][0]['wind']['degrees']
 
     snow = 0
+    try:
+        conditions = weather_info['data'][0]['conditions'][0]["code"]
+        #METAR returns condition codes, the set contains all the relevant snowy conditions and checks if any of those are true or not
+        snowy_situations = ["GS", "S", "SG", "SN", "SNINCR", "SP", "SW"]
+        snow_check = set(snowy_situations)
 
-    conditions = weather_info.data.conditions
-    
+        #if there is any snowy condition, set snow to TRUE
+        for condition in conditions:
+            if condition in snow_check:
+                snow = 1
+                break
+    except:
+        snow = 0
 
-    #METAR returns condition codes, the set contains all the relevant snowy conditions and checks if any of those are true or not
-    snowy_situations = ["GS", "S", "SG", "SN", "SNINCR", "SP", "SW"]
-    snow_check = set(snowy_situations)
 
-    #if there is any snowy condition, set snow to TRUE
-    for condition in conditions:
-        if condition.code in snow_check:
-            snow = 1
-            break
+
 
     return wind, wind_direction, rain, temp, snow
+
+# def extract_flight_data(flight_data_json):
+
+
+
+
 
 
 #function to convert data to a datafram
 def convert_to_dataframe(wind, wind_direction, rain, temp, snow):
-    
+
     data = {
         'Wind': wind,
-        'Wind Direction': wind_direction,
         'Rain': rain,
+        'Snow': snow,
         'Temperature': temp,
-        'Snow': snow
+        'Wind_Direction': wind_direction
     }
 
-    
-    df = pd.DataFrame(data)
-
-    return df
+    # 'awnd_x', 'prcp_x', 'snow_x', 'snwd_x','tavg_x', 'wdf2_x
+    json_data = json.dumps(data)
 
 
-    
-
+    return json_data
 
 def main():
-    
-    airlabs_api_key = os.environ.get('AIRLABS_API_KEY')
-    checkwx_api_key = os.environ.get('CHECKWX_API_KEY')
+
+    airlabs_api_key = "5786f070-a648-40df-9078-cd2fa6e66ee4"
+    checkwx_api_key = '82c5df5581d043c9b15719eafd'
 
     #NEED TO PULL FLIGHT NUMBER FROM FRONTEND
 
-    flight_number = "NK968"  
-    icao_code = "KJFK"       
+    flight_number = "nk5"
+    icao_code_origin = "KJFK"
+    icao_code_dest = "KATL"
 
     flight_info = get_flight_info(flight_number, airlabs_api_key)
-    weather_info = get_weather_info(icao_code, checkwx_api_key)
+    weather_info = get_weather_info(icao_code_origin, checkwx_api_key)
+    weather_info_dest = get_weather_info(icao_code_dest, checkwx_api_key)
 
-    wind, wind_direction, rain, temp, snow = get_model_input(weather_info)
-
-    df = convert_to_dataframe(wind, wind_direction, rain, temp, snow)
-
-    
-    # NEED TO FEED WEATHER INFO INTO AMISH'S MODEL
     print("Flight Information:")
     print(flight_info)
     print("\nWeather Information:")
     print(weather_info)
+
+    wind, wind_direction, rain, temp, snow = extract_weather_data(weather_info)
+
+    json_origin = convert_to_dataframe(wind, wind_direction, rain, temp, snow)
+
+    wind, wind_direction, rain, temp, snow = extract_weather_data(weather_info_dest)
+
+    json_dest = convert_to_dataframe(wind, wind_direction, rain, temp, snow)
+
+    # NEED TO FEED WEATHER INFO INTO AMISH'S MODEL
+
 
 if __name__ == "__main__":
     main()

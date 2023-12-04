@@ -1,0 +1,18 @@
+"unique_carrier_id","carrier_name","total_flights","delayed_flights_count"
+"WN","Southwest Airlines",4269,1142.0
+"HA","Hawaiian Airlines", 219,56.0
+"B6","JetBlue Airways",882,300.0
+"DL","Delta Air Lines",2855,497.0
+"AA","American Airlines",2849,659.0
+"F9","Frontier Airlines",469,139.0
+"UA","United Airlines",2316,478.0
+"YX","Republic Airways",989,147.0
+"9E","Endeavor Air",618,96.0
+"OO","SkyWest Airlines",2190,365.0
+"AS","Alaska Airlines",689,126.0
+"NK","Spirit Airlines",823,224.0
+"OH","PSA Airlines",598,90.0
+"MQ","Envoy Air",696,98.0
+"G4","Allegiant Air",352,97.0
+"QX","Horizon Air",189,18.0
+"YV","Mesa Airlines",316,58.0
