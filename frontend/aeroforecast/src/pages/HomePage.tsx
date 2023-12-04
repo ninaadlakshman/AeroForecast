@@ -1,18 +1,25 @@
 import { Card } from 'primereact/card';
 import AirlineSelect from '../components/AirlineSelect';
-import { useNavigate } from 'react-router-dom';
+import { createSearchParams, useNavigate } from 'react-router-dom';
 
 const HomePage = () => {
     const navigate = useNavigate();
 
     const onSubmit = (info: any) => {
-        navigate("/prediction")
+        const params = {
+            airline: info.airline.name,
+            flightNumber: info.flightNumber
+        }
+        navigate({
+            pathname: "/prediction",
+            search: `?${createSearchParams(params)}`
+        })
     }
     return (
         <div className="d-flex flex-column align-items-center justify-content-center h-100">
             <h1>Get Your Flight Delay/Cancellation Prediction...</h1>
             <Card className="w-75">
-            <AirlineSelect onSubmit={onSubmit}></AirlineSelect>
+                <AirlineSelect onSubmit={onSubmit}></AirlineSelect>
             </Card>
         </div>
     );

@@ -1,21 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useForm, SubmitHandler, Controller, DeepMap, FieldError } from "react-hook-form"
 import { Dropdown } from 'primereact/dropdown';
 import { InputMask } from 'primereact/inputmask';
 import { Button } from 'primereact/button';
-import alaska from '../assets/alaska-airlines.png'
-import allegiant from '../assets/allegiant-air.png'
-import american from '../assets/american-airlines.png'
-import delta from '../assets/delta-airlines.png'
-import frontier from '../assets/frontier-airlines.png'
-import hawaiian from '../assets/hawaiian-airlines.png'
-import jetblue from '../assets/jetblue-airways.png'
-import southwest from '../assets/southwest-airlines.png'
-import spirit from '../assets/spirit-airlines.png'
-import united from '../assets/united-airlines.png'
 import './AirlineSelect.css';
 import { classNames } from 'primereact/utils';
-import { Airline } from '../interfaces/Airline';
+import { Airline, usAirlines } from '../interfaces/airline';
 
 interface AirlineSelectProps {
     onSubmit: (info: {airline: Airline, flightNumber: string}) => void;
@@ -37,28 +27,17 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
     const {
         control,
         formState,
+        setValue,
         handleSubmit,
-        reset
+        watch
     } = useForm<FormValues>({ defaultValues });
+    const flightNumberWatch = watch('flightNumber');
     const { errors } = formState as { errors: DeepMap<FormValues, CustomFieldError> };
-    const usAirlines: Airline[] = [
-        { name: "Alaska Airlines", imgSrc: alaska },
-        { name: "Allegiant Air", imgSrc: allegiant },
-        { name: "American Airlines", imgSrc: american },
-        { name: "Delta Air Lines", imgSrc: delta },
-        { name: "Frontier Airlines", imgSrc: frontier },
-        { name: "Hawaiian Airlines", imgSrc: hawaiian },
-        { name: "JetBlue Airways", imgSrc: jetblue },
-        { name: "Southwest Airlines", imgSrc: southwest },
-        { name: "Spirit Airlines", imgSrc: spirit },
-        { name: "United Airlines", imgSrc: united }
-      ];
-    
+    useEffect(() => {}, [flightNumberWatch])
     const onSubmit = (data: any) => {
         // Handle form submission logic here
         data = (data as {airline: Airline, flightNumber: string})
         props.onSubmit(data);
-        console.log(data);
     };
 
     
@@ -91,12 +70,21 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
         }
     };
 
+    const updateAirlineInput = (inputtedAirline: Airline) => {
+        if (!inputtedAirline) {
+            return;
+        }
+        const airline = usAirlines.find((airline) => airline.name === inputtedAirline.name)
+        setValue('airline', airline)
+        setValue('flightNumber', airline?.code)
+    }
+
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
             <div className="d-flex flex-column">
                 <div className="d-flex flew-row">
                     <div className="d-flex flex-column mr-2 w-50">
-                        <label htmlFor="flight_number" className="font-bold block mb-2">Airline</label>
+                        <label htmlFor="airline" className="font-bold block mb-2">Airline</label>
                         <Controller
                             name="airline"
                             control={control}
@@ -105,7 +93,7 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
                                 <Dropdown
                                     id={field.name}
                                     value={field.value}
-                                    onChange={(e) => field.onChange(e.value)}
+                                    onChange={(e) => updateAirlineInput(e.value ?? '')}
                                     options={usAirlines}
                                     optionLabel="name"
                                     placeholder="Select an airline"
@@ -130,9 +118,9 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
                                     id={field.name}
                                     value={field.value}
                                     onChange={(e) => field.onChange(e.value)}
-                                    mask="aaa999"
+                                    mask="aa999"
                                     className={classNames({ 'p-invalid': fieldState.error })}
-                                    placeholder="ABC123"/>
+                                    placeholder="AA123"/>
                             )}
                             />
                         {getFormErrorMessage('flightNumber')}

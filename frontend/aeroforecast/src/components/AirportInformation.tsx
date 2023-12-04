@@ -1,19 +1,25 @@
 import React from 'react'; 
 import { Fieldset } from 'primereact/fieldset';
-import { Airport } from '../interface/airport';
+import { Airport } from '../interfaces/airport';
 import './AirportInformation.css';
 import moment from "moment";
 import { Chip } from 'primereact/chip';
 import timeSymbol from '../assets/time.png'
+import flightTimeSymbol from '../assets/flight-time.png'
+import { FlightDelay } from '../interfaces/flight-delay';
 
 type AirportInformationProps = {
-    airport: Airport
+    flightDelay: FlightDelay
     isDeparting: boolean
 }
 export default function AirportInformation(props: AirportInformationProps) {
-    const {airport, isDeparting} = props;
-    const formattedDate = moment(airport.flightInfo.time).format('MMMM Do, YYYY h:mm A');
-    const relativeTime = moment(airport.flightInfo.time).fromNow(); // "a few seconds ago"
+    const {flightDelay, isDeparting} = props;
+    const time = isDeparting ? flightDelay.departingTime : flightDelay.arrivalTime
+    const formattedDate = moment(time).format('MMMM Do, YYYY h:mm A');
+    const relativeTime = moment(time).fromNow();
+    const flightTimeMoment = moment.duration(moment(flightDelay.arrivalTime).diff(flightDelay.departingTime));
+    const flightMinutes = flightTimeMoment.minutes() < 10 ? `0${flightTimeMoment.minutes()}` : flightTimeMoment.minutes()
+    const flightTime = `Flight Time: ${flightTimeMoment.hours()}h ${flightMinutes}min`
 
     const departingAirportTemplate = (
         <div className="flex align-items-center departing-airport-text">
@@ -23,34 +29,27 @@ export default function AirportInformation(props: AirportInformationProps) {
     );
 
     const arrivingAirportTemplate = (
-        <div className="flex align-items-center arriving-airport-text">
+        <div className="d-flex align-items-center arriving-airport-text">
             <span className="pi pi-arrow-right"></span>
             <span className="font-bold text-lg"> Arriving Airport</span>
         </div>
     );
 
     const airportHeaderTemplate = isDeparting ? departingAirportTemplate : arrivingAirportTemplate;
-    
-    const chipContent = (
-        <>
-            <span className="bg-primary border-circle w-2rem h-2rem flex align-items-center justify-content-center">T</span>
-            <span className="ml-2 font-medium">{relativeTime}</span>
-        </>
-    );
+
     return (
-        <div className="card">
-            <Fieldset legend={airportHeaderTemplate}>
-                <div className="d-flex flex-column">
-                    <div>
-                        <strong>Airport: </strong> {airport.name}
-                    </div>
-                    <div className="top-space">
-                        <strong>Time: </strong> {formattedDate}
-                    </div>
-                    {isDeparting && <Chip label={relativeTime} image={timeSymbol} className="w-50 top-space" />}
+        <Fieldset legend={airportHeaderTemplate}>
+            <div>
+                <div>
+                    <strong>Airport: </strong> {isDeparting ? flightDelay.departingAirport.name : flightDelay.arrivalAirport.name}
                 </div>
-            </Fieldset>
-        </div>
+                <div className="top-space">
+                    <strong>Time: </strong> {formattedDate}
+                </div>
+                {isDeparting && <Chip label={relativeTime} image={timeSymbol} className="top-space" />}
+                {!isDeparting && <Chip label={flightTime.toString()} image={flightTimeSymbol} className="top-space" />}
+            </div>
+        </Fieldset>
     )
 }
         
