@@ -34,14 +34,13 @@ def get_weather_info(icao_code, checkwx_api_key):
 #function to parse the JSON response from the CheckWX api
 def extract_weather_data(weather_info):
     #Pulling relevant data from JSON
-    print(weather_info['data'][0].keys())
     try:
-        rain = weather_info['data'][0]['rain']['inches']
+        rain = float(weather_info['data'][0]['rain']['inches'])
     except:
         rain = 0.00
-    temp = weather_info['data'][0]['temperature']['fahrenheit']
-    wind = weather_info['data'][0]['wind']['speed_mph']
-    wind_direction = weather_info['data'][0]['wind']['degrees']
+    temp = float(weather_info['data'][0]['temperature']['fahrenheit'])
+    wind = float(weather_info['data'][0]['wind']['speed_mph'])
+    wind_direction = float(weather_info['data'][0]['wind']['degrees'])
 
     snow = 0
     try:
@@ -102,11 +101,6 @@ def main():
     weather_info = get_weather_info(icao_code_origin, checkwx_api_key)
     weather_info_dest = get_weather_info(icao_code_dest, checkwx_api_key)
 
-    print("Flight Information:")
-    print(flight_info)
-    print("\nWeather Information:")
-    print(weather_info)
-
     wind, wind_direction, rain, temp, snow = extract_weather_data(weather_info)
 
     json_origin = convert_to_dataframe(wind, wind_direction, rain, temp, snow)
@@ -114,6 +108,9 @@ def main():
     wind, wind_direction, rain, temp, snow = extract_weather_data(weather_info_dest)
 
     json_dest = convert_to_dataframe(wind, wind_direction, rain, temp, snow)
+
+    print(json_origin)
+    print(json_dest)
 
     # NEED TO FEED WEATHER INFO INTO AMISH'S MODEL
 
