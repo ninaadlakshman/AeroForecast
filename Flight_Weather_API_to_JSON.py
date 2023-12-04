@@ -80,7 +80,8 @@ def extract_flight_data(flight_data):
     # with open(flight_data_json) as file:
     #     response = json.load(file)
     data = flight_data["response"]
-
+    # print("This is the response!")
+    # print(data)
     # date_time combined
     date_time = data["dep_time"] # date is in 2023-12-03 20:05
     dep_date, dep_time = date_time.split()
@@ -127,16 +128,16 @@ def extract_flight_data(flight_data):
 def convert_to_dataframe(wind, wind_direction, rain, temp, snow, wind_d, wind_direction_d, rain_d, temp_d, snow_d):
 
     data = {
-        'Origin_Wind': wind,
-        'Origin_Rain': rain,
-        'Origin_Snow': snow,
-        'Origin_Temperature': temp,
-        'Origin_Wind_Direction': wind_direction,
-        'Destination_Wind': wind_d,
-        'Destination_Rain': rain_d,
-        'Destination_Snow': snow_d,
-        'Destination_Temperature': temp_d,
-        'Destination_Wind_Direction': wind_direction_d
+        'awnd_x': wind,
+        'prcp_x': rain,
+        'snow_x': snow,
+        't_avg_x': temp,
+        'wdf2_x': wind_direction,
+        'awnd_y': wind_d,
+        'prcp_y': rain_d,
+        'snow_y': snow_d,
+        't_avg_y': temp_d,
+        'wd2_y': wind_direction_d
     }
 
     # 'awnd_x', 'prcp_x', 'snow_x', 'snwd_x','tavg_x', 'wdf2_x
@@ -189,11 +190,12 @@ def predict():
 
     combined_data = combine_json_files(json_files)
 
-    json_final = json.dumps(combined_data)
+    json_final = json.dumps(combined_data, indent=2)
 
-    return jsonify(json_final)
+    return json_final
 
 
 
 if __name__ == "__main__":
     app.run(debug=True)
+    # main()
