@@ -18,7 +18,8 @@ AeroForecast aims to provide a valuable tool for travelers, allowing them to ant
 
 ## Data Source 🌐
 
-AeroForecast relies on data sourced from the National Oceanic and Atmospheric Administration (NOAA), ensuring the accuracy and reliability of the information used for training and predictions.
+AeroForecast relies on data sourced from the [National Oceanic and Atmospheric Administration](https://www.ncdc.noaa.gov/cdo-web/search) (NOAA) and [Bureau of Transportation Stastics](https://www.transtats.bts.gov/ONTIME/), ensuring the accuracy and reliability of the information used for training and predictions.
+
 
 ## Getting Started 🛠️
 
