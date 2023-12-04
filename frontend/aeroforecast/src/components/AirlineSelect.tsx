@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from 'react';
 import { useForm, SubmitHandler, Controller, DeepMap, FieldError } from "react-hook-form"
 import { Dropdown } from 'primereact/dropdown';
-import { InputMask } from 'primereact/inputmask';
+import { InputNumber } from 'primereact/inputnumber';
 import { Button } from 'primereact/button';
 import './AirlineSelect.css';
 import { classNames } from 'primereact/utils';
 import { Airline, usAirlines } from '../interfaces/airline';
+import { Calendar } from 'primereact/calendar';
+import { convertDateToString } from '../utility/formatter';
 
 interface AirlineSelectProps {
     onSubmit: (info: {airline: Airline, flightNumber: string}) => void;
@@ -14,6 +16,7 @@ interface AirlineSelectProps {
 type FormValues = {
     airline: Airline | undefined;
     flightNumber: string | undefined;
+    flightDate: Date | undefined;
 };
 
 type CustomFieldError = {
@@ -22,22 +25,26 @@ type CustomFieldError = {
 const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
     const defaultValues = {
         airline: undefined,
-        flightNumber: undefined
+        flightNumber: undefined,
+        flightDate: undefined
     };
     const {
         control,
         formState,
-        setValue,
         handleSubmit,
-        watch
     } = useForm<FormValues>({ defaultValues });
-    const flightNumberWatch = watch('flightNumber');
+    const [flightCode, setFlightCode] = useState("XX")
     const { errors } = formState as { errors: DeepMap<FormValues, CustomFieldError> };
-    useEffect(() => {}, [flightNumberWatch])
+
     const onSubmit = (data: any) => {
         // Handle form submission logic here
-        data = (data as {airline: Airline, flightNumber: string})
-        props.onSubmit(data);
+        const formatted = {
+            airline: data.airline,
+            flightNumber: data.flightNumber,
+            flightDate: convertDateToString(data.flightDate)
+        }
+        console.log(formatted);
+        props.onSubmit(formatted);
     };
 
     
@@ -63,7 +70,7 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
         );
     };
 
-    const getFormErrorMessage = (name: 'airline' | 'flightNumber') => {
+    const getFormErrorMessage = (name: 'airline' | 'flightNumber' | 'flightDate') => {
         if (errors[name]) {
             let message = (errors[name] as any).message;
             return <small className="p-error">{message}</small>;
@@ -75,16 +82,15 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
             return;
         }
         const airline = usAirlines.find((airline) => airline.name === inputtedAirline.name)
-        setValue('airline', airline)
-        setValue('flightNumber', airline?.code)
+        setFlightCode(airline?.code ?? "")
     }
 
     return (
         <form onSubmit={handleSubmit(onSubmit)}>
-            <div className="d-flex flex-column">
+            <div className="d-flex flex-column flex-shrink">
                 <div className="d-flex flew-row">
                     <div className="d-flex flex-column mr-2 w-50">
-                        <label htmlFor="airline" className="font-bold block mb-2">Airline</label>
+                        <label htmlFor="flight_number" className="font-bold block mb-2">Airline</label>
                         <Controller
                             name="airline"
                             control={control}
@@ -93,7 +99,9 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
                                 <Dropdown
                                     id={field.name}
                                     value={field.value}
-                                    onChange={(e) => updateAirlineInput(e.value ?? '')}
+                                    onChange={(e) => {
+                                        updateAirlineInput(e.value)
+                                        field.onChange(e.value)}}
                                     options={usAirlines}
                                     optionLabel="name"
                                     placeholder="Select an airline"
@@ -107,28 +115,53 @@ const AirlineSelect: React.FC<AirlineSelectProps> = (props) => {
                             />
                         {getFormErrorMessage('airline')}
                     </div>
-                    <div className="d-flex flex-column w-50">
+                    <div className="d-flex flex-column justify-content-center mr-2">
                         <label htmlFor="flight_number" className="font-bold block mb-2">Flight Number</label>
-                        <Controller
-                            name="flightNumber"
-                            control={control}
-                            rules={{ required: 'Flight number is required.' }} 
-                            render={({field, fieldState}) => (
-                                <InputMask
-                                    id={field.name}
-                                    value={field.value}
-                                    onChange={(e) => field.onChange(e.value)}
-                                    mask="aa999"
-                                    className={classNames({ 'p-invalid': fieldState.error })}
-                                    placeholder="AA123"/>
-                            )}
-                            />
+                        <div className="d-flex flex-row align-items-center">
+                            <div className="mr-1">
+                                <strong>{flightCode}</strong>
+                            </div>
+                            <Controller
+                                name="flightNumber"
+                                control={control}
+                                rules={{ required: 'Flight number is required.' }} 
+                                render={({field, fieldState}) => (
+                                    <InputNumber
+                                        id={field.name}
+                                        value={field.value ? +field.value : undefined}
+                                        format={false}
+                                        onChange={(e) => field.onChange(e.value)}
+                                        className={classNames({ 'p-invalid': fieldState.error })}
+                                        />
+                                )}
+                                />
+                        </div>
                         {getFormErrorMessage('flightNumber')}
+                    </div>
+                    <div className="d-flex flex-column">
+                        <label htmlFor="flight_number" className="font-bold block mb-2">Flight Date:</label>
+                        <div className="d-flex flex-row align-items-center">
+                            <Controller
+                                name="flightDate"
+                                control={control}
+                                rules={{ required: 'Flight date is required.' }} 
+                                render={({field, fieldState}) => (
+                                    <Calendar
+                                        id={field.name}
+                                        value={field.value}
+                                        dateFormat="yy-mm-dd"
+                                        onChange={(e) => field.onChange(e.value)}
+                                        className={classNames({ 'p-invalid': fieldState.error })}
+                                        />
+                                )}
+                                />
+                        </div>
+                        {getFormErrorMessage('flightDate')}
                     </div>
                 </div>
                 <Button type="submit" label="Submit" raised className="mt-2 custom-button-bg"></Button>
             </div>
-        </form>    
+        </form>
     )
 };    
 

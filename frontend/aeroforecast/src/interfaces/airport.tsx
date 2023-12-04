@@ -1,6 +1,6 @@
 export interface Airport {
-    airport_code: string;
     name: string;
+    code: string;
     lat: number;
     long: number;
 }

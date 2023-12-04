@@ -14,10 +14,12 @@ type AirportInformationProps = {
 }
 export default function AirportInformation(props: AirportInformationProps) {
     const {flightDelay, isDeparting} = props;
-    const time = isDeparting ? flightDelay.departingTime : flightDelay.arrivalTime
+    // console.log("FLIGHT");
+    // console.log(flightDelay)
+    const time = isDeparting ? flightDelay.departing.time : flightDelay.arrival.time
     const formattedDate = moment(time).format('MMMM Do, YYYY h:mm A');
     const relativeTime = moment(time).fromNow();
-    const flightTimeMoment = moment.duration(moment(flightDelay.arrivalTime).diff(flightDelay.departingTime));
+    const flightTimeMoment = moment.duration(moment(flightDelay.arrival.time).diff(flightDelay.departing.time));
     const flightMinutes = flightTimeMoment.minutes() < 10 ? `0${flightTimeMoment.minutes()}` : flightTimeMoment.minutes()
     const flightTime = `Flight Time: ${flightTimeMoment.hours()}h ${flightMinutes}min`
 
@@ -41,7 +43,7 @@ export default function AirportInformation(props: AirportInformationProps) {
         <Fieldset legend={airportHeaderTemplate}>
             <div>
                 <div>
-                    <strong>Airport: </strong> {isDeparting ? flightDelay.departingAirport.name : flightDelay.arrivalAirport.name}
+                    <strong>Airport: </strong> {isDeparting ? flightDelay.departing.airport.name : flightDelay.arrival.airport.name}
                 </div>
                 <div className="top-space">
                     <strong>Time: </strong> {formattedDate}

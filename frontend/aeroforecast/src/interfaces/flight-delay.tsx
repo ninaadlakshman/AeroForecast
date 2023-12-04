@@ -2,12 +2,22 @@ import { Airline } from "./airline";
 import { Airport } from "./airport";
 
 export interface FlightDelay {
-    departingAirport: Airport;
-    arrivalAirport: Airport;
-    airline: Airline | undefined;
-    flightNumber: string | null;
-    departingTime: Date;
-    arrivalTime: Date;
+    departing: {
+        airport: Airport;
+        temp: number;
+        prec: number;
+        snow: number;
+        time: Date;
+    };
+    arrival: {
+        airport: Airport;
+        temp: number;
+        prec: number;
+        snow: number;
+        time: Date;
+    }
+    airlineCode: string | null;
+    flightNumber: number | null;
     onTimeProbability: number;
     delayBucketProbabilities: number[]
 }

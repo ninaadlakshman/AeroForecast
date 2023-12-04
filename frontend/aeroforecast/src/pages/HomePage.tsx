@@ -4,15 +4,15 @@ import { createSearchParams, useNavigate } from 'react-router-dom';
 
 const HomePage = () => {
     const navigate = useNavigate();
-
     const onSubmit = (info: any) => {
         const params = {
-            airline: info.airline.name,
-            flightNumber: info.flightNumber
+            airlineCode: info.airline.code,
+            flightNumber: info.flightNumber,
+            flightDate: info.flightDate
         }
         navigate({
             pathname: "/prediction",
-            search: `?${createSearchParams(params)}`
+            search: `?${createSearchParams(params)}`,
         })
     }
     return (

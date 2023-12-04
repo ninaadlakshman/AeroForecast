@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import * as d3 from 'd3';
 import * as topojson from 'topojson';
 import usGeo from '../assets/geo/us.json'
-import airportDelayMap from '../assets/geo/airport_delay_map.json'
+import airportDelayMap from '../assets/geo/airport_data.json'
 import './PredictionMap.css';
 import { Airport, AirportDelayPoint } from '../interfaces/airport';
 import AirportInformation from './AirportInformation';
@@ -51,10 +51,10 @@ const PredictionMap = (props: PredictionMapProps) => {
         .attr("d", (path as any))
         .attr("class", "state");
 
-    const departingX = (getCoords(flightDelay.departingAirport.long, flightDelay.departingAirport.lat) as any)[0]
-    const departingY = (getCoords(flightDelay.departingAirport.long, flightDelay.departingAirport.lat) as any)[1]
-    const arrivalX = (getCoords(flightDelay.arrivalAirport.long, flightDelay.arrivalAirport.lat) as any)[0]
-    const arrivalY = (getCoords(flightDelay.arrivalAirport.long, flightDelay.arrivalAirport.lat) as any)[1]
+    const departingX = (getCoords(flightDelay.departing.airport.long, flightDelay.departing.airport.lat) as any)[0]
+    const departingY = (getCoords(flightDelay.departing.airport.long, flightDelay.departing.airport.lat) as any)[1]
+    const arrivalX = (getCoords(flightDelay.arrival.airport.long, flightDelay.arrival.airport.lat) as any)[0]
+    const arrivalY = (getCoords(flightDelay.arrival.airport.long, flightDelay.arrival.airport.lat) as any)[1]
 
     const airportMin = Math.min(...airportDelayMap.map((airport: AirportDelayPoint) => (airport.delayed_flights_count / airport.total_flights) as number))
     const airportMax = Math.max(...airportDelayMap.map((airport: AirportDelayPoint) => (airport.delayed_flights_count / airport.total_flights) as number))
@@ -73,11 +73,11 @@ const PredictionMap = (props: PredictionMapProps) => {
       .data(airportDelayMap)
       .enter().append("circle")
       .attr("class", "airport")
-      .attr("r", (airport: AirportDelayPoint) => airport.origin_airport === flightDelay.arrivalAirport.airport_code || airport.origin_airport === flightDelay.departingAirport.airport_code ? 8 : 3)
+      .attr("r", (airport: AirportDelayPoint) => airport.origin_airport === flightDelay.arrival.airport.code || airport.origin_airport === flightDelay.departing.airport.code ? 8 : 3)
       .attr("stroke", (airport: AirportDelayPoint) => {
-        if (airport.origin_airport === flightDelay.arrivalAirport.airport_code) {
+        if (airport.origin_airport === flightDelay.arrival.airport.code) {
           return "#F89880"
-        } else if (airport.origin_airport === flightDelay.departingAirport.airport_code) {
+        } else if (airport.origin_airport === flightDelay.departing.airport.code) {
           return "#408559"
         }
         return null
@@ -118,18 +118,18 @@ const PredictionMap = (props: PredictionMapProps) => {
         .attr("viewBox", "0 -5 10 10")
         .attr("refX", 8)
         .attr("refY", 0)
-        .attr("markerWidth", 6)
-        .attr("markerHeight", 6)
+        .attr("markerWidth", 4)
+        .attr("markerHeight", 4)
         .attr("orient", "auto")
         .append("path")
         .attr("d", "M0,-5L10,0L0,5")
-        .attr("fill", "white")
+        .attr("stroke", "black")
         .attr("class", "arrowhead");
     
     svg.append("path")
         .attr('d', flightPath([[departingX, departingY], [arrivalX, arrivalY]]))
         .attr("stroke-width", 2)
-        .attr("stroke", "white")
+        .attr("stroke", "black")
         .attr("marker-end", "url(#triangle)")
         .attr("id", "flightPath")
 
@@ -154,7 +154,7 @@ const PredictionMap = (props: PredictionMapProps) => {
                 <AirportInformation flightDelay={flightDelay} isDeparting={false}/>
               </div>
               <div className="mt-2">
-                <strong>Legend:</strong> Redder airports signify higher delays
+                <strong>Legend:</strong> Redder airports signify higher delays.
               </div>
             </div>
         </div>
