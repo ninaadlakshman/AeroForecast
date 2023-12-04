@@ -32,7 +32,7 @@ npm install
 ```
 
 ### 2) You must get the API keys at the following websites:
-For flights: [Airlabs](https://airlabs.co/docs/flight)  
+For flights: [AeroDataBox]([https://airlabs.co/docs/flight](https://aerodatabox.com/))  
 For weather: [CheckWX](https://www.checkwxapi.com/documentation/code/samples) 
 
 ### 3) Run npm start
