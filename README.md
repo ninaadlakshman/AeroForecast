@@ -23,6 +23,7 @@ AeroForecast relies on data sourced from the [National Oceanic and Atmospheric A
 
 ## Getting Started 🛠️
 
+### 1) Install the required packages
 For ease of use, we have included requirements.txt and package.json files. Run the below commands from within the project root directory to install the required dependencies.
 
 ```bash
@@ -30,9 +31,16 @@ pip install -r requirements.txt
 npm install
 ```
 
-### You must get the API keys at the following websites:
+### 2) You must get the API keys at the following websites:
 For flights: [Airlabs](https://airlabs.co/docs/flight)  
 For weather: [CheckWX](https://www.checkwxapi.com/documentation/code/samples) 
+
+### 3) Run npm start
+```
+npm start
+```
+
+### 4) Interact with our project! Input any flight and see the delay predictions from our cool visualizations.
 
 ## Usage 🖥️
 Once the required dependencies are installed, simply run `npm start` and the application will run on your local machine.
