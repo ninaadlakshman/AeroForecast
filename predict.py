@@ -16,10 +16,8 @@ def predict_delay():
         features_in_order = ['month', 'day', 'day_of_week',
                               'unique_carrier_id', 'flight_number', 'origin_airport', 'destination_airport',
                               'expected_departure_time', 'expected_arrival_time',
-                              'awnd_x', 'prcp_x', 'snow_x', 'snwd_x', 'tavg_x', 'wdf2_x',
-                              'lat_x', 'long_x',
-                              'awnd_y', 'prcp_y', 'snow_y', 'snwd_y', 'tavg_y', 'wdf2_y',
-                              'lat_y', 'long_y']
+                              'awnd_x', 'prcp_x', 'snow_x',  'tavg_x', 'wdf2_x',
+                              'awnd_y', 'prcp_y', 'snow_y', 'tavg_y', 'wdf2_y']
 
         features_values = [data[feature] for feature in features_in_order]
 
