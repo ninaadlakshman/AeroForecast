@@ -32,10 +32,15 @@ npm install
 ## Usage
 Once the required dependencies are installed, simply run `npm start` and the application will run on your local machine.
 
-## AeroForecast Team
+## AeroForecast Team 👥
 Amish Saini, Kartik Narang, Nathan Wang, Aryan Musharaf, Ninaad Lakshman, Alex Kim.
 
+## Contributions 🤝
+We welcome contributions to AeroForecast! If you have ideas for new features, improvements, or bug fixes, please feel free to submit a pull request.
 
-## License
+## License 📄
 
-[MIT](https://choosealicense.com/licenses/mit/)
+AeroForecast is licensed under the [MIT](https://choosealicense.com/licenses/mit/) License. Feel free to use, modify, and distribute the application in accordance with the terms of this license.
+
+
+
