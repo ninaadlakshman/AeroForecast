@@ -1,0 +1,2102 @@
+[
+ {
+   "origin_airport": "ATL",
+   "latitude": 33.64083333,
+   "longitude": -84.42722222,
+   "total_flights": 1023,
+   "delayed_flights_count": 205
+ },
+ {
+   "origin_airport": "SEA",
+   "latitude": 47.45,
+   "longitude": -122.31166667,
+   "total_flights": 545,
+   "delayed_flights_count": 104
+ },
+ {
+   "origin_airport": "BOS",
+   "latitude": 42.36361111,
+   "longitude": -71.00611111,
+   "total_flights": 448,
+   "delayed_flights_count": 102
+ },
+ {
+   "origin_airport": "JAX",
+   "latitude": 30.49416667,
+   "longitude": -81.68777778,
+   "total_flights": 104,
+   "delayed_flights_count": 18
+ },
+ {
+   "origin_airport": "ORD",
+   "latitude": 41.98166667,
+   "longitude": -87.90666667,
+   "total_flights": 747,
+   "delayed_flights_count": 150
+ },
+ {
+   "origin_airport": "AUS",
+   "latitude": 30.19444444,
+   "longitude": -97.67,
+   "total_flights": 284,
+   "delayed_flights_count": 64
+ },
+ {
+   "origin_airport": "LAS",
+   "latitude": 36.08,
+   "longitude": -115.15222222,
+   "total_flights": 571,
+   "delayed_flights_count": 134
+ },
+ {
+   "origin_airport": "MCO",
+   "latitude": 28.43166667,
+   "longitude": -81.32472222,
+   "total_flights": 487,
+   "delayed_flights_count": 136
+ },
+ {
+   "origin_airport": "CHS",
+   "latitude": 32.89916667,
+   "longitude": -80.03888889,
+   "total_flights": 85,
+   "delayed_flights_count": 24
+ },
+ {
+   "origin_airport": "LAX",
+   "latitude": 33.94277778,
+   "longitude": -118.40861111,
+   "total_flights": 582,
+   "delayed_flights_count": 101
+ },
+ {
+   "origin_airport": "IND",
+   "latitude": 39.72888889,
+   "longitude": -86.28166667,
+   "total_flights": 130,
+   "delayed_flights_count": 18
+ },
+ {
+   "origin_airport": "DEN",
+   "latitude": 39.86166667,
+   "longitude": -104.67305556,
+   "total_flights": 855,
+   "delayed_flights_count": 254
+ },
+ {
+   "origin_airport": "MDW",
+   "latitude": 41.78583333,
+   "longitude": -87.7525,
+   "total_flights": 249,
+   "delayed_flights_count": 84
+ },
+ {
+   "origin_airport": "HNL",
+   "latitude": 21.31861111,
+   "longitude": -157.9225,
+   "total_flights": 181,
+   "delayed_flights_count": 34
+ },
+ {
+   "origin_airport": "OMA",
+   "latitude": 41.30305556,
+   "longitude": -95.89416667,
+   "total_flights": 68,
+   "delayed_flights_count": 11
+ },
+ {
+   "origin_airport": "CVG",
+   "latitude": 39.04888889,
+   "longitude": -84.66777778,
+   "total_flights": 124,
+   "delayed_flights_count": 19
+ },
+ {
+   "origin_airport": "MBS",
+   "latitude": 43.53305556,
+   "longitude": -84.07972222,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "PHX",
+   "latitude": 33.43611111,
+   "longitude": -112.00944444,
+   "total_flights": 506,
+   "delayed_flights_count": 113
+ },
+ {
+   "origin_airport": "DFW",
+   "latitude": 32.89722222,
+   "longitude": -97.03777778,
+   "total_flights": 864,
+   "delayed_flights_count": 197
+ },
+ {
+   "origin_airport": "SFO",
+   "latitude": 37.61888889,
+   "longitude": -122.375,
+   "total_flights": 413,
+   "delayed_flights_count": 78
+ },
+ {
+   "origin_airport": "MSP",
+   "latitude": 44.88611111,
+   "longitude": -93.21777778,
+   "total_flights": 364,
+   "delayed_flights_count": 75
+ },
+ {
+   "origin_airport": "SLC",
+   "latitude": 40.78833333,
+   "longitude": -111.97777778,
+   "total_flights": 302,
+   "delayed_flights_count": 52
+ },
+ {
+   "origin_airport": "BNA",
+   "latitude": 36.12666667,
+   "longitude": -86.68194444,
+   "total_flights": 264,
+   "delayed_flights_count": 52
+ },
+ {
+   "origin_airport": "SDF",
+   "latitude": 38.17972222,
+   "longitude": -85.73861111,
+   "total_flights": 63,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "SAV",
+   "latitude": 32.1275,
+   "longitude": -81.20222222,
+   "total_flights": 46,
+   "delayed_flights_count": 8
+ },
+ {
+   "origin_airport": "SMF",
+   "latitude": 38.69555556,
+   "longitude": -121.58972222,
+   "total_flights": 172,
+   "delayed_flights_count": 40
+ },
+ {
+   "origin_airport": "FLL",
+   "latitude": 26.07416667,
+   "longitude": -80.15166667,
+   "total_flights": 261,
+   "delayed_flights_count": 83
+ },
+ {
+   "origin_airport": "BHM",
+   "latitude": 33.56388889,
+   "longitude": -86.75222222,
+   "total_flights": 53,
+   "delayed_flights_count": 14
+ },
+ {
+   "origin_airport": "IAH",
+   "latitude": 29.98333333,
+   "longitude": -95.34,
+   "total_flights": 714,
+   "delayed_flights_count": 176
+ },
+ {
+   "origin_airport": "DAL",
+   "latitude": 32.84722222,
+   "longitude": -96.85166667,
+   "total_flights": 191,
+   "delayed_flights_count": 64
+ },
+ {
+   "origin_airport": "SJC",
+   "latitude": 37.36277778,
+   "longitude": -121.94055556,
+   "total_flights": 185,
+   "delayed_flights_count": 38
+ },
+ {
+   "origin_airport": "DCA",
+   "latitude": 38.85194444,
+   "longitude": -77.03777778,
+   "total_flights": 456,
+   "delayed_flights_count": 92
+ },
+ {
+   "origin_airport": "SAT",
+   "latitude": 29.53388889,
+   "longitude": -98.46916667,
+   "total_flights": 117,
+   "delayed_flights_count": 21
+ },
+ {
+   "origin_airport": "HOU",
+   "latitude": 29.64583333,
+   "longitude": -95.27722222,
+   "total_flights": 155,
+   "delayed_flights_count": 43
+ },
+ {
+   "origin_airport": "TPA",
+   "latitude": 27.97555556,
+   "longitude": -82.53333333,
+   "total_flights": 240,
+   "delayed_flights_count": 63
+ },
+ {
+   "origin_airport": "OKC",
+   "latitude": 35.39305556,
+   "longitude": -97.60055556,
+   "total_flights": 68,
+   "delayed_flights_count": 9
+ },
+ {
+   "origin_airport": "MIA",
+   "latitude": 25.79527778,
+   "longitude": -80.29,
+   "total_flights": 343,
+   "delayed_flights_count": 101
+ },
+ {
+   "origin_airport": "EWR",
+   "latitude": 40.69583333,
+   "longitude": -74.17166667,
+   "total_flights": 410,
+   "delayed_flights_count": 115
+ },
+ {
+   "origin_airport": "DSM",
+   "latitude": 41.53416667,
+   "longitude": -93.6575,
+   "total_flights": 39,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "BWI",
+   "latitude": 39.17583333,
+   "longitude": -76.66888889,
+   "total_flights": 299,
+   "delayed_flights_count": 91
+ },
+ {
+   "origin_airport": "SJU",
+   "latitude": 18.44,
+   "longitude": -66.00222222,
+   "total_flights": 100,
+   "delayed_flights_count": 28
+ },
+ {
+   "origin_airport": "CLT",
+   "latitude": 35.21388889,
+   "longitude": -80.94305556,
+   "total_flights": 553,
+   "delayed_flights_count": 133
+ },
+ {
+   "origin_airport": "CMI",
+   "latitude": 40.03972222,
+   "longitude": -88.27972222,
+   "total_flights": 7,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "PHL",
+   "latitude": 39.87222222,
+   "longitude": -75.24083333,
+   "total_flights": 289,
+   "delayed_flights_count": 53
+ },
+ {
+   "origin_airport": "DTW",
+   "latitude": 42.21666667,
+   "longitude": -83.34444444,
+   "total_flights": 365,
+   "delayed_flights_count": 58
+ },
+ {
+   "origin_airport": "SAN",
+   "latitude": 32.73361111,
+   "longitude": -117.18666667,
+   "total_flights": 266,
+   "delayed_flights_count": 42
+ },
+ {
+   "origin_airport": "ACK",
+   "latitude": 41.25666667,
+   "longitude": -70.05972222,
+   "total_flights": 5,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "FSD",
+   "latitude": 43.58194444,
+   "longitude": -96.74194444,
+   "total_flights": 52,
+   "delayed_flights_count": 8
+ },
+ {
+   "origin_airport": "ECP",
+   "latitude": 30.35833333,
+   "longitude": -85.79555556,
+   "total_flights": 20,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "SNA",
+   "latitude": 33.67555556,
+   "longitude": -117.86694444,
+   "total_flights": 135,
+   "delayed_flights_count": 35
+ },
+ {
+   "origin_airport": "GEG",
+   "latitude": 47.62,
+   "longitude": -117.53277778,
+   "total_flights": 142,
+   "delayed_flights_count": 24
+ },
+ {
+   "origin_airport": "TYS",
+   "latitude": 35.81222222,
+   "longitude": -83.9925,
+   "total_flights": 40,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "MFR",
+   "latitude": 42.375,
+   "longitude": -122.87333333,
+   "total_flights": 32,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "PDX",
+   "latitude": 45.58916667,
+   "longitude": -122.595,
+   "total_flights": 156,
+   "delayed_flights_count": 26
+ },
+ {
+   "origin_airport": "XNA",
+   "latitude": 36.28194444,
+   "longitude": -94.30694444,
+   "total_flights": 26,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "PSP",
+   "latitude": 33.83,
+   "longitude": -116.50611111,
+   "total_flights": 60,
+   "delayed_flights_count": 12
+ },
+ {
+   "origin_airport": "GSP",
+   "latitude": 34.89888889,
+   "longitude": -82.21388889,
+   "total_flights": 41,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "PSM",
+   "latitude": 43.07777778,
+   "longitude": -70.82333333,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "ORF",
+   "latitude": 36.89583333,
+   "longitude": -76.20138889,
+   "total_flights": 77,
+   "delayed_flights_count": 11
+ },
+ {
+   "origin_airport": "STL",
+   "latitude": 38.74861111,
+   "longitude": -90.37,
+   "total_flights": 177,
+   "delayed_flights_count": 40
+ },
+ {
+   "origin_airport": "PIA",
+   "latitude": 40.66138889,
+   "longitude": -89.68722222,
+   "total_flights": 8,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "RIC",
+   "latitude": 37.50527778,
+   "longitude": -77.31972222,
+   "total_flights": 55,
+   "delayed_flights_count": 10
+ },
+ {
+   "origin_airport": "KOA",
+   "latitude": 19.73888889,
+   "longitude": -156.04555556,
+   "total_flights": 51,
+   "delayed_flights_count": 7
+ },
+ {
+   "origin_airport": "HSV",
+   "latitude": 34.64277778,
+   "longitude": -86.77555556,
+   "total_flights": 25,
+   "delayed_flights_count": 8
+ },
+ {
+   "origin_airport": "CMH",
+   "latitude": 39.99805556,
+   "longitude": -82.89194444,
+   "total_flights": 141,
+   "delayed_flights_count": 20
+ },
+ {
+   "origin_airport": "JAC",
+   "latitude": 43.60722222,
+   "longitude": -110.73777778,
+   "total_flights": 18,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "LIH",
+   "latitude": 21.97916667,
+   "longitude": -159.34583333,
+   "total_flights": 33,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "LGA",
+   "latitude": 40.77944444,
+   "longitude": -73.87583333,
+   "total_flights": 477,
+   "delayed_flights_count": 113
+ },
+ {
+   "origin_airport": "AVL",
+   "latitude": 35.43611111,
+   "longitude": -82.54194444,
+   "total_flights": 26,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "LBB",
+   "latitude": 33.66222222,
+   "longitude": -101.82277778,
+   "total_flights": 13,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "PIT",
+   "latitude": 40.49666667,
+   "longitude": -80.23583333,
+   "total_flights": 250,
+   "delayed_flights_count": 52
+ },
+ {
+   "origin_airport": "DLH",
+   "latitude": 46.8425,
+   "longitude": -92.19027778,
+   "total_flights": 9,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "IAD",
+   "latitude": 38.9475,
+   "longitude": -77.46,
+   "total_flights": 147,
+   "delayed_flights_count": 34
+ },
+ {
+   "origin_airport": "ELP",
+   "latitude": 31.80722222,
+   "longitude": -106.37638889,
+   "total_flights": 61,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "MRY",
+   "latitude": 36.58694444,
+   "longitude": -121.84305556,
+   "total_flights": 16,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "FWA",
+   "latitude": 40.97833333,
+   "longitude": -85.18805556,
+   "total_flights": 6,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "MLI",
+   "latitude": 41.44888889,
+   "longitude": -90.505,
+   "total_flights": 6,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "SFB",
+   "latitude": 28.775,
+   "longitude": -81.24027778,
+   "total_flights": 28,
+   "delayed_flights_count": 7
+ },
+ {
+   "origin_airport": "CLE",
+   "latitude": 41.41083333,
+   "longitude": -81.84944444,
+   "total_flights": 130,
+   "delayed_flights_count": 21
+ },
+ {
+   "origin_airport": "TUL",
+   "latitude": 36.19833333,
+   "longitude": -95.88805556,
+   "total_flights": 43,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "FAT",
+   "latitude": 36.77666667,
+   "longitude": -119.71888889,
+   "total_flights": 41,
+   "delayed_flights_count": 10
+ },
+ {
+   "origin_airport": "FAR",
+   "latitude": 46.91555556,
+   "longitude": -96.81472222,
+   "total_flights": 20,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "PSC",
+   "latitude": 46.26388889,
+   "longitude": -119.11472222,
+   "total_flights": 19,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "MSO",
+   "latitude": 46.91638889,
+   "longitude": -114.09055556,
+   "total_flights": 13,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "ITO",
+   "latitude": 19.72361111,
+   "longitude": -155.05805556,
+   "total_flights": 24,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "EUG",
+   "latitude": 44.12444444,
+   "longitude": -123.21194444,
+   "total_flights": 32,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "GRB",
+   "latitude": 44.48472222,
+   "longitude": -88.12972222,
+   "total_flights": 13,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "DAY",
+   "latitude": 39.90222222,
+   "longitude": -84.21944444,
+   "total_flights": 25,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "HHH",
+   "latitude": 32.22444444,
+   "longitude": -80.6975,
+   "total_flights": 5,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ANC",
+   "latitude": 61.17416667,
+   "longitude": -149.99805556,
+   "total_flights": 55,
+   "delayed_flights_count": 9
+ },
+ {
+   "origin_airport": "COS",
+   "latitude": 38.80888889,
+   "longitude": -104.70916667,
+   "total_flights": 33,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "MCI",
+   "latitude": 39.2975,
+   "longitude": -94.71388889,
+   "total_flights": 248,
+   "delayed_flights_count": 32
+ },
+ {
+   "origin_airport": "RSW",
+   "latitude": 26.53611111,
+   "longitude": -81.755,
+   "total_flights": 110,
+   "delayed_flights_count": 19
+ },
+ {
+   "origin_airport": "HPN",
+   "latitude": 41.06694444,
+   "longitude": -73.7075,
+   "total_flights": 47,
+   "delayed_flights_count": 9
+ },
+ {
+   "origin_airport": "SHV",
+   "latitude": 32.44694444,
+   "longitude": -93.82555556,
+   "total_flights": 16,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "ABQ",
+   "latitude": 35.03888889,
+   "longitude": -106.60833333,
+   "total_flights": 64,
+   "delayed_flights_count": 14
+ },
+ {
+   "origin_airport": "OAK",
+   "latitude": 37.72138889,
+   "longitude": -122.22111111,
+   "total_flights": 120,
+   "delayed_flights_count": 22
+ },
+ {
+   "origin_airport": "CID",
+   "latitude": 41.88444444,
+   "longitude": -91.70611111,
+   "total_flights": 19,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "BUR",
+   "latitude": 34.2,
+   "longitude": -118.35777778,
+   "total_flights": 106,
+   "delayed_flights_count": 18
+ },
+ {
+   "origin_airport": "ROC",
+   "latitude": 43.12138889,
+   "longitude": -77.67083333,
+   "total_flights": 30,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "MSY",
+   "latitude": 29.99333333,
+   "longitude": -90.25805556,
+   "total_flights": 139,
+   "delayed_flights_count": 27
+ },
+ {
+   "origin_airport": "LGB",
+   "latitude": 33.8175,
+   "longitude": -118.15111111,
+   "total_flights": 56,
+   "delayed_flights_count": 14
+ },
+ {
+   "origin_airport": "TTN",
+   "latitude": 40.27666667,
+   "longitude": -74.81333333,
+   "total_flights": 7,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "TUS",
+   "latitude": 32.11888889,
+   "longitude": -110.94444444,
+   "total_flights": 46,
+   "delayed_flights_count": 9
+ },
+ {
+   "origin_airport": "ABI",
+   "latitude": 32.41138889,
+   "longitude": -99.68194444,
+   "total_flights": 10,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BOI",
+   "latitude": 43.56527778,
+   "longitude": -116.225,
+   "total_flights": 80,
+   "delayed_flights_count": 11
+ },
+ {
+   "origin_airport": "JFK",
+   "latitude": 40.64,
+   "longitude": -73.77861111,
+   "total_flights": 398,
+   "delayed_flights_count": 107
+ },
+ {
+   "origin_airport": "VCT",
+   "latitude": 28.85416667,
+   "longitude": -96.91861111,
+   "total_flights": 4,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "OGG",
+   "latitude": 20.90055556,
+   "longitude": -156.43361111,
+   "total_flights": 72,
+   "delayed_flights_count": 18
+ },
+ {
+   "origin_airport": "ABY",
+   "latitude": 31.53555556,
+   "longitude": -84.19444444,
+   "total_flights": 6,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "CWA",
+   "latitude": 44.78222222,
+   "longitude": -89.65916667,
+   "total_flights": 7,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "RNO",
+   "latitude": 39.49916667,
+   "longitude": -119.76805556,
+   "total_flights": 61,
+   "delayed_flights_count": 8
+ },
+ {
+   "origin_airport": "PWM",
+   "latitude": 43.64611111,
+   "longitude": -70.30916667,
+   "total_flights": 32,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "ICT",
+   "latitude": 37.65,
+   "longitude": -97.43305556,
+   "total_flights": 40,
+   "delayed_flights_count": 8
+ },
+ {
+   "origin_airport": "BIL",
+   "latitude": 45.80694444,
+   "longitude": -108.54277778,
+   "total_flights": 9,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "ABE",
+   "latitude": 40.65472222,
+   "longitude": -75.43833333,
+   "total_flights": 14,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "BUF",
+   "latitude": 42.94055556,
+   "longitude": -78.7325,
+   "total_flights": 59,
+   "delayed_flights_count": 13
+ },
+ {
+   "origin_airport": "SYR",
+   "latitude": 43.11111111,
+   "longitude": -76.10638889,
+   "total_flights": 36,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "RDU",
+   "latitude": 35.87777778,
+   "longitude": -78.7875,
+   "total_flights": 186,
+   "delayed_flights_count": 37
+ },
+ {
+   "origin_airport": "PBI",
+   "latitude": 26.68305556,
+   "longitude": -80.09555556,
+   "total_flights": 83,
+   "delayed_flights_count": 26
+ },
+ {
+   "origin_airport": "ONT",
+   "latitude": 34.05611111,
+   "longitude": -117.60111111,
+   "total_flights": 75,
+   "delayed_flights_count": 14
+ },
+ {
+   "origin_airport": "LFT",
+   "latitude": 30.20472222,
+   "longitude": -91.9875,
+   "total_flights": 9,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "PIE",
+   "latitude": 27.91,
+   "longitude": -82.6875,
+   "total_flights": 24,
+   "delayed_flights_count": 12
+ },
+ {
+   "origin_airport": "GCK",
+   "latitude": 37.92861111,
+   "longitude": -100.72972222,
+   "total_flights": 4,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BDL",
+   "latitude": 41.93916667,
+   "longitude": -72.68333333,
+   "total_flights": 71,
+   "delayed_flights_count": 17
+ },
+ {
+   "origin_airport": "LEX",
+   "latitude": 38.03972222,
+   "longitude": -84.60222222,
+   "total_flights": 25,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "CAE",
+   "latitude": 33.94055556,
+   "longitude": -81.11916667,
+   "total_flights": 17,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BTV",
+   "latitude": 44.47277778,
+   "longitude": -73.15305556,
+   "total_flights": 22,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "MSN",
+   "latitude": 43.14,
+   "longitude": -89.3375,
+   "total_flights": 35,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "MEM",
+   "latitude": 35.04972222,
+   "longitude": -89.97861111,
+   "total_flights": 67,
+   "delayed_flights_count": 15
+ },
+ {
+   "origin_airport": "ILM",
+   "latitude": 34.27111111,
+   "longitude": -77.90277778,
+   "total_flights": 22,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "AGS",
+   "latitude": 33.36916667,
+   "longitude": -81.96444444,
+   "total_flights": 12,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "SRQ",
+   "latitude": 27.39555556,
+   "longitude": -82.55444444,
+   "total_flights": 42,
+   "delayed_flights_count": 13
+ },
+ {
+   "origin_airport": "AVP",
+   "latitude": 41.33916667,
+   "longitude": -75.72583333,
+   "total_flights": 5,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "SBA",
+   "latitude": 34.42777778,
+   "longitude": -119.83944444,
+   "total_flights": 13,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "SGF",
+   "latitude": 37.24555556,
+   "longitude": -93.38861111,
+   "total_flights": 20,
+   "delayed_flights_count": 5
+ },
+ {
+   "origin_airport": "RDD",
+   "latitude": 40.50888889,
+   "longitude": -122.29333333,
+   "total_flights": 5,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ALB",
+   "latitude": 42.74916667,
+   "longitude": -73.80194444,
+   "total_flights": 39,
+   "delayed_flights_count": 12
+ },
+ {
+   "origin_airport": "MAF",
+   "latitude": 31.94083333,
+   "longitude": -102.20138889,
+   "total_flights": 24,
+   "delayed_flights_count": 7
+ },
+ {
+   "origin_airport": "FOD",
+   "latitude": 42.5525,
+   "longitude": -94.18972222,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "JNU",
+   "latitude": 58.35555556,
+   "longitude": -134.57472222,
+   "total_flights": 13,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "MKE",
+   "latitude": 42.95027778,
+   "longitude": -87.89722222,
+   "total_flights": 74,
+   "delayed_flights_count": 11
+ },
+ {
+   "origin_airport": "COU",
+   "latitude": 38.81805556,
+   "longitude": -92.21972222,
+   "total_flights": 7,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "MOT",
+   "latitude": 48.25944444,
+   "longitude": -101.28083333,
+   "total_flights": 4,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "SIT",
+   "latitude": 57.04861111,
+   "longitude": -135.36166667,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "EVV",
+   "latitude": 38.04083333,
+   "longitude": -87.52861111,
+   "total_flights": 8,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "BZN",
+   "latitude": 45.78027778,
+   "longitude": -111.15944444,
+   "total_flights": 27,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "SJT",
+   "latitude": 31.35972222,
+   "longitude": -100.49444444,
+   "total_flights": 4,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "TLH",
+   "latitude": 30.39972222,
+   "longitude": -84.35194444,
+   "total_flights": 18,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "FCA",
+   "latitude": 48.31277778,
+   "longitude": -114.25111111,
+   "total_flights": 11,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "GRR",
+   "latitude": 42.88111111,
+   "longitude": -85.52416667,
+   "total_flights": 42,
+   "delayed_flights_count": 7
+ },
+ {
+   "origin_airport": "BGR",
+   "latitude": 44.80777778,
+   "longitude": -68.82777778,
+   "total_flights": 14,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "RKS",
+   "latitude": 41.59416667,
+   "longitude": -109.06527778,
+   "total_flights": 4,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ASE",
+   "latitude": 39.22194444,
+   "longitude": -106.86833333,
+   "total_flights": 23,
+   "delayed_flights_count": 10
+ },
+ {
+   "origin_airport": "BMI",
+   "latitude": 40.48194444,
+   "longitude": -88.9275,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "TYR",
+   "latitude": 32.35472222,
+   "longitude": -95.39888889,
+   "total_flights": 4,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "CHA",
+   "latitude": 35.03638889,
+   "longitude": -85.20361111,
+   "total_flights": 13,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "EGE",
+   "latitude": 39.64361111,
+   "longitude": -106.91388889,
+   "total_flights": 10,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "VPS",
+   "latitude": 30.48333333,
+   "longitude": -86.52527778,
+   "total_flights": 24,
+   "delayed_flights_count": 10
+ },
+ {
+   "origin_airport": "MHT",
+   "latitude": 42.93833333,
+   "longitude": -71.43888889,
+   "total_flights": 19,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "PNS",
+   "latitude": 30.47333333,
+   "longitude": -87.1875,
+   "total_flights": 26,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "MYR",
+   "latitude": 33.67972222,
+   "longitude": -78.92833333,
+   "total_flights": 44,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "RAP",
+   "latitude": 44.04527778,
+   "longitude": -103.05694444,
+   "total_flights": 9,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SUN",
+   "latitude": 43.50416667,
+   "longitude": -114.30833333,
+   "total_flights": 8,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "JAN",
+   "latitude": 32.31111111,
+   "longitude": -90.07583333,
+   "total_flights": 15,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SBP",
+   "latitude": 35.23666667,
+   "longitude": -120.63916667,
+   "total_flights": 13,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "IDA",
+   "latitude": 43.51361111,
+   "longitude": -112.07083333,
+   "total_flights": 9,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "DAB",
+   "latitude": 29.1825,
+   "longitude": -81.05277778,
+   "total_flights": 6,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "STT",
+   "latitude": 18.33722222,
+   "longitude": -64.97333333,
+   "total_flights": 17,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "AMA",
+   "latitude": 35.22722222,
+   "longitude": -101.72194444,
+   "total_flights": 16,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "ABR",
+   "latitude": 45.44972222,
+   "longitude": -98.42166667,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "YAK",
+   "latitude": 59.50916667,
+   "longitude": -139.65972222,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "LAR",
+   "latitude": 41.31194444,
+   "longitude": -105.675,
+   "total_flights": 5,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "CRP",
+   "latitude": 27.77222222,
+   "longitude": -97.5025,
+   "total_flights": 8,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "MTJ",
+   "latitude": 38.50972222,
+   "longitude": -107.89416667,
+   "total_flights": 26,
+   "delayed_flights_count": 8
+ },
+ {
+   "origin_airport": "MGM",
+   "latitude": 32.30055556,
+   "longitude": -86.39388889,
+   "total_flights": 11,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "BTR",
+   "latitude": 30.53305556,
+   "longitude": -91.15,
+   "total_flights": 11,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "LCH",
+   "latitude": 30.13111111,
+   "longitude": -93.22555556,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ACT",
+   "latitude": 31.61222222,
+   "longitude": -97.23027778,
+   "total_flights": 7,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BRO",
+   "latitude": 25.91083333,
+   "longitude": -97.42888889,
+   "total_flights": 6,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "KTN",
+   "latitude": 55.35833333,
+   "longitude": -131.71666667,
+   "total_flights": 10,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ISP",
+   "latitude": 40.79666667,
+   "longitude": -73.10083333,
+   "total_flights": 16,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "BIS",
+   "latitude": 46.77888889,
+   "longitude": -100.7525,
+   "total_flights": 14,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "LIT",
+   "latitude": 34.72944444,
+   "longitude": -92.22472222,
+   "total_flights": 28,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "ROA",
+   "latitude": 37.32555556,
+   "longitude": -79.97555556,
+   "total_flights": 5,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "SGU",
+   "latitude": 37.03638889,
+   "longitude": -113.51027778,
+   "total_flights": 11,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BET",
+   "latitude": 60.78444444,
+   "longitude": -161.83138889,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "PGD",
+   "latitude": 26.91888889,
+   "longitude": -81.99083333,
+   "total_flights": 26,
+   "delayed_flights_count": 6
+ },
+ {
+   "origin_airport": "EYW",
+   "latitude": 24.55611111,
+   "longitude": -81.75944444,
+   "total_flights": 22,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "JMS",
+   "latitude": 46.93,
+   "longitude": -98.67833333,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "RHI",
+   "latitude": 45.63138889,
+   "longitude": -89.4575,
+   "total_flights": 5,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "BLI",
+   "latitude": 48.79444444,
+   "longitude": -122.53472222,
+   "total_flights": 13,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "CHO",
+   "latitude": 38.14138889,
+   "longitude": -78.45305556,
+   "total_flights": 5,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "AZA",
+   "latitude": 33.30777778,
+   "longitude": -111.65555556,
+   "total_flights": 12,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "CRW",
+   "latitude": 38.37611111,
+   "longitude": -81.59277778,
+   "total_flights": 6,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "PVD",
+   "latitude": 41.72833333,
+   "longitude": -71.42611111,
+   "total_flights": 38,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "RDM",
+   "latitude": 44.25444444,
+   "longitude": -121.15138889,
+   "total_flights": 14,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "ATW",
+   "latitude": 44.25805556,
+   "longitude": -88.51916667,
+   "total_flights": 14,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "MLB",
+   "latitude": 28.1025,
+   "longitude": -80.64305556,
+   "total_flights": 8,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "GSO",
+   "latitude": 36.10138889,
+   "longitude": -79.94111111,
+   "total_flights": 38,
+   "delayed_flights_count": 8
+ },
+ {
+   "origin_airport": "TVC",
+   "latitude": 44.74166667,
+   "longitude": -85.58166667,
+   "total_flights": 13,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SCK",
+   "latitude": 37.89444444,
+   "longitude": -121.23861111,
+   "total_flights": 1,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BRD",
+   "latitude": 46.39722222,
+   "longitude": -94.1375,
+   "total_flights": 6,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "RST",
+   "latitude": 43.91027778,
+   "longitude": -92.49638889,
+   "total_flights": 7,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ITH",
+   "latitude": 42.49138889,
+   "longitude": -76.45861111,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "GJT",
+   "latitude": 39.11861111,
+   "longitude": -108.51388889,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "GRI",
+   "latitude": 40.96722222,
+   "longitude": -98.30666667,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "PAE",
+   "latitude": 47.90833333,
+   "longitude": -122.28138889,
+   "total_flights": 7,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "HRL",
+   "latitude": 26.22861111,
+   "longitude": -97.65444444,
+   "total_flights": 9,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "CAK",
+   "latitude": 40.915,
+   "longitude": -81.44361111,
+   "total_flights": 11,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "GPT",
+   "latitude": 30.40722222,
+   "longitude": -89.07,
+   "total_flights": 11,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "MLU",
+   "latitude": 32.51111111,
+   "longitude": -92.03888889,
+   "total_flights": 11,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ACY",
+   "latitude": 39.4575,
+   "longitude": -74.57805556,
+   "total_flights": 11,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "MVY",
+   "latitude": 41.39333333,
+   "longitude": -70.61388889,
+   "total_flights": 5,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "PLN",
+   "latitude": 45.57083333,
+   "longitude": -84.79277778,
+   "total_flights": 2,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "XWA",
+   "latitude": 48.26083333,
+   "longitude": -103.75111111,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "STX",
+   "latitude": 17.70388889,
+   "longitude": -64.79888889,
+   "total_flights": 5,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "BLV",
+   "latitude": 38.54527778,
+   "longitude": -89.83527778,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SBN",
+   "latitude": 41.70833333,
+   "longitude": -86.31722222,
+   "total_flights": 20,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "CDV",
+   "latitude": 60.49305556,
+   "longitude": -145.47,
+   "total_flights": 6,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "JST",
+   "latitude": 40.31666667,
+   "longitude": -78.83444444,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "TXK",
+   "latitude": 33.45638889,
+   "longitude": -93.98916667,
+   "total_flights": 6,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "MFE",
+   "latitude": 26.17694444,
+   "longitude": -98.23972222,
+   "total_flights": 19,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "INL",
+   "latitude": 48.56555556,
+   "longitude": -93.40222222,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ROW",
+   "latitude": 33.30166667,
+   "longitude": -104.53055556,
+   "total_flights": 6,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "STS",
+   "latitude": 38.50972222,
+   "longitude": -122.81277778,
+   "total_flights": 9,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "LAN",
+   "latitude": 42.77916667,
+   "longitude": -84.58833333,
+   "total_flights": 4,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "MOB",
+   "latitude": 30.69138889,
+   "longitude": -88.24277778,
+   "total_flights": 18,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "GNV",
+   "latitude": 29.69,
+   "longitude": -82.27166667,
+   "total_flights": 6,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "TRI",
+   "latitude": 36.47611111,
+   "longitude": -82.40638889,
+   "total_flights": 5,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "HDN",
+   "latitude": 40.48166667,
+   "longitude": -107.22,
+   "total_flights": 7,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "MHK",
+   "latitude": 39.14222222,
+   "longitude": -96.66888889,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "AZO",
+   "latitude": 42.23638889,
+   "longitude": -85.55361111,
+   "total_flights": 6,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "HLN",
+   "latitude": 46.60694444,
+   "longitude": -111.98277778,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "CKB",
+   "latitude": 39.29777778,
+   "longitude": -80.2275,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "FAY",
+   "latitude": 34.99138889,
+   "longitude": -78.88027778,
+   "total_flights": 5,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "DVL",
+   "latitude": 48.11666667,
+   "longitude": -98.91,
+   "total_flights": 4,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "FAI",
+   "latitude": 64.81527778,
+   "longitude": -147.85666667,
+   "total_flights": 6,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "PIB",
+   "latitude": 31.4675,
+   "longitude": -89.33666667,
+   "total_flights": 4,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SPI",
+   "latitude": 39.84416667,
+   "longitude": -89.67888889,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "ORH",
+   "latitude": 42.26916667,
+   "longitude": -71.87444444,
+   "total_flights": 5,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "BIH",
+   "latitude": 37.37333333,
+   "longitude": -118.365,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "ACV",
+   "latitude": 40.97777778,
+   "longitude": -124.10833333,
+   "total_flights": 8,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "GFK",
+   "latitude": 47.95194444,
+   "longitude": -97.17861111,
+   "total_flights": 5,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "MDT",
+   "latitude": 40.19305556,
+   "longitude": -76.76222222,
+   "total_flights": 13,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "LRD",
+   "latitude": 27.54472222,
+   "longitude": -99.46111111,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "VEL",
+   "latitude": 40.43611111,
+   "longitude": -109.51138889,
+   "total_flights": 2,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "PRC",
+   "latitude": 34.65472222,
+   "longitude": -112.41916667,
+   "total_flights": 4,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "GTF",
+   "latitude": 47.48555556,
+   "longitude": -111.36694444,
+   "total_flights": 8,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "RIW",
+   "latitude": 43.06444444,
+   "longitude": -108.45694444,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SLN",
+   "latitude": 38.79055556,
+   "longitude": -97.65222222,
+   "total_flights": 4,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "SHR",
+   "latitude": 44.77416667,
+   "longitude": -106.97722222,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "PSE",
+   "latitude": 18.01083333,
+   "longitude": -66.56361111,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "IMT",
+   "latitude": 45.81833333,
+   "longitude": -88.11444444,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "LBL",
+   "latitude": 37.04444444,
+   "longitude": -100.96055556,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "GTR",
+   "latitude": 33.45027778,
+   "longitude": -88.59138889,
+   "total_flights": 9,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "PVU",
+   "latitude": 40.21916667,
+   "longitude": -111.72333333,
+   "total_flights": 5,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "FNT",
+   "latitude": 42.96666667,
+   "longitude": -83.74166667,
+   "total_flights": 7,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "GRK",
+   "latitude": 31.06722222,
+   "longitude": -97.82888889,
+   "total_flights": 7,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "FLG",
+   "latitude": 35.14027778,
+   "longitude": -111.66916667,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "MCW",
+   "latitude": 43.15777778,
+   "longitude": -93.33111111,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "OME",
+   "latitude": 64.5125,
+   "longitude": -165.44444444,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "DEC",
+   "latitude": 39.83444444,
+   "longitude": -88.86555556,
+   "total_flights": 4,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "HYS",
+   "latitude": 38.84222222,
+   "longitude": -99.27305556,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BQK",
+   "latitude": 31.25888889,
+   "longitude": -81.46638889,
+   "total_flights": 2,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "PBG",
+   "latitude": 44.65083333,
+   "longitude": -73.46805556,
+   "total_flights": 4,
+   "delayed_flights_count": 4
+ },
+ {
+   "origin_airport": "BJI",
+   "latitude": 47.50944444,
+   "longitude": -94.93361111,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ELM",
+   "latitude": 42.16083333,
+   "longitude": -76.89527778,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "DDC",
+   "latitude": 37.76305556,
+   "longitude": -99.96555556,
+   "total_flights": 4,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "CMX",
+   "latitude": 47.16833333,
+   "longitude": -88.48916667,
+   "total_flights": 1,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "LCK",
+   "latitude": 39.81388889,
+   "longitude": -82.92777778,
+   "total_flights": 4,
+   "delayed_flights_count": 3
+ },
+ {
+   "origin_airport": "EAR",
+   "latitude": 40.72694444,
+   "longitude": -99.00666667,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "FSM",
+   "latitude": 35.33666667,
+   "longitude": -94.36611111,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "TBN",
+   "latitude": 37.74166667,
+   "longitude": -92.14083333,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "HIB",
+   "latitude": 47.38861111,
+   "longitude": -92.83861111,
+   "total_flights": 2,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "DRO",
+   "latitude": 37.15,
+   "longitude": -107.75111111,
+   "total_flights": 5,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "JLN",
+   "latitude": 37.15305556,
+   "longitude": -94.49888889,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "LBF",
+   "latitude": 41.12833333,
+   "longitude": -100.69666667,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SPS",
+   "latitude": 33.98888889,
+   "longitude": -98.49194444,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "AKN",
+   "latitude": 58.67777778,
+   "longitude": -156.65166667,
+   "total_flights": 3,
+   "delayed_flights_count": 2
+ },
+ {
+   "origin_airport": "MKG",
+   "latitude": 43.17055556,
+   "longitude": -86.2375,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "DBQ",
+   "latitude": 42.41,
+   "longitude": -90.71083333,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "GUM",
+   "latitude": 13.48388889,
+   "longitude": 144.79722222,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "GGG",
+   "latitude": 32.38666667,
+   "longitude": -94.71527778,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "YKM",
+   "latitude": 46.56805556,
+   "longitude": -120.54416667,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "APN",
+   "latitude": 45.08166667,
+   "longitude": -83.55583333,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "LBE",
+   "latitude": 40.27638889,
+   "longitude": -79.40277778,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "BTM",
+   "latitude": 45.95472222,
+   "longitude": -112.4975,
+   "total_flights": 2,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "EKO",
+   "latitude": 40.825,
+   "longitude": -115.79138889,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "SAF",
+   "latitude": 35.6175,
+   "longitude": -106.08833333,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "LSE",
+   "latitude": 43.87916667,
+   "longitude": -91.25666667,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "RFD",
+   "latitude": 42.19527778,
+   "longitude": -89.09722222,
+   "total_flights": 3,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "CSG",
+   "latitude": 32.51638889,
+   "longitude": -84.93888889,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "DHN",
+   "latitude": 31.32111111,
+   "longitude": -85.44944444,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "PIH",
+   "latitude": 42.91333333,
+   "longitude": -112.59444444,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "AEX",
+   "latitude": 31.32416667,
+   "longitude": -92.54694444,
+   "total_flights": 5,
+   "delayed_flights_count": 1
+ },
+ {
+   "origin_airport": "SWO",
+   "latitude": 36.16138889,
+   "longitude": -97.08583333,
+   "total_flights": 1,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "ADQ",
+   "latitude": 57.75,
+   "longitude": -152.49388889,
+   "total_flights": 3,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "YUM",
+   "latitude": 32.65666667,
+   "longitude": -114.60583333,
+   "total_flights": 2,
+   "delayed_flights_count": 0
+ },
+ {
+   "origin_airport": "CNY",
+   "latitude": 38.755,
+   "longitude": -109.75472222,
+   "total_flights": 1,
+   "delayed_flights_count": 1
+ }
+]
