@@ -41,7 +41,6 @@ export function formatResponse(data: any, params: {airlineCode: string, flightNu
         onTimeProbability: data.probability_of_no_delay,
         delayBucketProbabilities: data.probability_buckets
     }
-    console.log(flightDelay)
     return flightDelay;
 }
 
